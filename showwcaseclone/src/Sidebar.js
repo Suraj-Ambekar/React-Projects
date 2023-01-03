@@ -1,6 +1,17 @@
 import './Sidebar.css';
+import communites from './communities';
+
+const community = communites.map(item=>{
+    return(
+      <div className="communities">
+        <div className="circle"></div>
+        <img className="community-imgs" src={item.src} alt={item.alt} />
+      </div>
+    )
+  })
 
 export default function Sidebar(){
+    
     return(
         <section className="sidebar">
             <div className="container">
@@ -18,13 +29,16 @@ export default function Sidebar(){
                         <hr className="hr" color="gray" />
                     </div>
                 </div>
-                {/* <div className="second-container">
-    kjdljflkjldfj
+                <div className="second-container">
+                    {/* <div className="ci">
+                        <img className="community-imgs" src="" alt="first" />
+                    </div> */}
+                    {community}
                 </div>
                 <button className="refer-btn">
-    jj
-                </button> */}
-                </div>
+                    <i class="fa-solid fa-user-plus refer"></i>
+                </button>
+            </div>
         </section>
     )
 }
