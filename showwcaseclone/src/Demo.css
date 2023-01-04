@@ -1,0 +1,37 @@
+
+.sideebar{
+    margin: 100px 250px;
+    width: 64px;
+    height: 750px;
+    background-color: black;
+    border: 2px solid red;
+    /* box-sizing: border-box; */
+    
+}
+
+.sidebar-content{
+    width: 100%;
+    background-color: blue;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 1rem;
+}
+
+a{
+    /* background-color: pink; */
+    margin-left: 4px;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+}
+
+/* .sec{
+    height: 20px;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    gap: 10px;
+} */
