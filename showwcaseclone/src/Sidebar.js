@@ -5,7 +5,10 @@ const community = communites.map(item=>{
     return(
       <div className="communities">
         <div className="circle"></div>
-        <img className="community-imgs" src={item.src} alt={item.alt} />
+        {/* <div className="imgs-name"> */}
+            <img className="community-imgs" src={item.src} alt={item.alt} />
+        {/* </div> */}
+        <span>{item.name}</span>
       </div>
     )
   })
@@ -33,7 +36,7 @@ export default function Sidebar(){
                     {/* <div className="ci">
                         <img className="community-imgs" src="" alt="first" />
                     </div> */}
-                    {community}
+                        {community}
                 </div>
                 <button className="refer-btn">
                     <i class="fa-solid fa-user-plus refer"></i>

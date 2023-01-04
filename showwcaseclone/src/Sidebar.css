@@ -29,7 +29,7 @@
     /* align-items: center; */
 }
 
-/* .sidebar:hover{
+.sidebar:hover{
     width: 220px;
     transition: 0.4s;
     transition-timing-function: ease-in-out;
@@ -37,7 +37,7 @@
 
 .container:hover{
     padding-left: 15px;
-} */
+}
 
 .logo{
     width: 24px;
@@ -132,9 +132,13 @@
 /* end */
 
 .communities{
-    width: 32px;
+    /* width: 32px; */
+
     height: 34px;
     padding: 0 12px;
+    display: flex;
+    /* justify-content: start;
+    align-items: center; */
 }
 
 .circle{
@@ -147,11 +151,16 @@
 }
 
 .community-imgs{
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
     border-radius: 4px;
     position: relative;
-    top: -5px;
+    /* top: -5px; */
+    padding: 0 1.2rem 0 0;
+}
+
+.imgs-name span{
+    margin-left: 2rem;
 }
 
 .refer-btn{
@@ -167,3 +176,6 @@
     font-weight: 800;
     color: white;
 }
+
+
+
