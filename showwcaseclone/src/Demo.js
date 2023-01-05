@@ -55,6 +55,9 @@ export default function Demo(){
                     </a> */}
                     {community}
                 </div>
+                <button className="refer-btn">
+                    <i class="fa-solid fa-user-plus refer"></i>
+                </button>
             </div>
         </div>
     )

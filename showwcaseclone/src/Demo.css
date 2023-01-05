@@ -1,11 +1,13 @@
 
 .sidebar{
-    margin: 0px 300px;
+    /* margin: 0px 300px; */
     width: 64px;
     /* width: 220px; */
     height: 750px;
-    background-color: blue;
-    border: 2px solid red;
+    background-color: black;
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 15px;
     /* padding-left: 0.5rem; */
     /* box-sizing: border-box; */
     
@@ -13,7 +15,9 @@
 
 .sidebar-content{
     width: 100%;
-    background-color: blue;
+    /* width: 64px; */
+    /* background-color: blue; */
+    /* background-color: black; */
     height: 100%;
     box-sizing: border-box;
     /* padding: 0 1rem; */
@@ -29,7 +33,7 @@ a{
 
 .logo{
     width: 25px;
-    height: 25px;
+    height: 20px;
     margin-bottom: .7rem;
 }
 
@@ -70,13 +74,24 @@ a{
     gap: 1.7rem;  
 }
 
+.home a:hover{
+    background-color: #2c2c2c;
+    border-radius: 5px;
+}
+
+/* .home a i{
+
+    display: grid;
+    place-items: center;
+} */
+
 .hr{
-    margin-top: 0.8rem;
+    margin-top: 0.3rem;
     width: 65%;
 }
 
 .second-container{
-    height: 340px;
+    height: 375px;
     /* border: 2px solid red; */
     overflow: scroll;
     margin-bottom: 10px;
@@ -116,6 +131,12 @@ a{
     gap: 1.7rem;   */
     
 }
+
+.second-container a:hover{
+    background-color: #2c2c2c;
+    border-radius: 5px;
+}
+
 
 .second-container a .circle{
     width: 5px;
@@ -169,6 +190,21 @@ a{
     color: #999;
 }
 
+.refer-btn{
+    color: white;
+    background: linear-gradient(112.27deg, #E580F4 0%, #8280F7 100%);
+    width: 75%;
+    height: 35px;
+    border-radius: 5px;
+    /* align-self: center; */
+    margin: 0 .5rem;
+    margin-bottom: 0.8rem;
+}
+
+.refer-btn i{
+    font-size: .7rem;
+}
+
 
 
 /* hover effect */
@@ -176,6 +212,7 @@ a{
 .sidebar:hover{
     width: 220px;
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
     box-sizing: border-box;
 }
 .sidebar:hover .add{
@@ -191,6 +228,7 @@ a{
 }
 
 .sidebar:hover .hr{
+    margin-top: 0.9rem;
     width: 85%;
 }
 
@@ -201,6 +239,10 @@ a{
 
 .sidebar:hover .second-container a .cName{
     gap: 1rem;
+}
+
+.sidebar:hover .refer-btn{
+    width: 90%;
 }
 
 /* hover effect end*/
