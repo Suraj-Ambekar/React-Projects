@@ -1,10 +1,12 @@
 
-.sideebar{
-    margin: 100px 250px;
+.sidebar{
+    margin: 0px 300px;
     width: 64px;
+    /* width: 220px; */
     height: 750px;
-    background-color: black;
+    background-color: blue;
     border: 2px solid red;
+    /* padding-left: 0.5rem; */
     /* box-sizing: border-box; */
     
 }
@@ -14,18 +16,82 @@
     background-color: blue;
     height: 100%;
     box-sizing: border-box;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
 }
 
 a{
     /* background-color: pink; */
     margin-left: 4px;
+    padding: 0 1rem;
+    /* background-color: blue; */
+    
 }
 
 .logo{
     width: 25px;
     height: 25px;
+    margin-bottom: .7rem;
 }
+
+/* 184*29 pa 1 6 bo 2 */
+.add{
+    color: white;
+    background-color: #206cef;
+    width: 75%;
+    height: 35px;
+    border-radius: 5px;
+    /* align-self: center; */
+    margin: 0 .5rem;
+    margin-bottom: 0.8rem;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+}
+/* .home a:first-child{
+    color: white;
+} */
+
+
+/* 184*29 pa 1 6 bo 2 */
+.home a{
+    /* width: 90%; */
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0 .5rem;
+
+    /* padding: 0.6rem 0; */
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    gap: 1.7rem;
+    
+}
+
+/* hover effect */
+
+.sidebar:hover{
+    width: 220px;
+    padding-left: 0.5rem;
+    box-sizing: border-box;
+}
+.sidebar:hover .add{
+    width: 90%;
+}
+
+.sidebar:hover .logo{
+    margin-left: -8px;
+}
+
+.sidebar:hover a{
+    gap: 0;
+}
+
+/* hover effect end*/
+
 
 /* .sec{
     height: 20px;
