@@ -67,13 +67,69 @@ a{
     overflow: hidden;
     display: grid;
     grid-template-columns: 20% 1fr;
-    gap: 1.7rem;
+    gap: 1.7rem;  
+}
+
+.hr{
+    margin-top: 0.8rem;
+    width: 65%;
+}
+
+.second-container a{
+    /* width: 90%; */
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0 .5rem;
+
+    /* padding: 0.6rem 0; */
+    overflow: hidden;
+    /* display: grid;
+    grid-template-columns: ; */
+    display: flex;
+    align-items: center;
+    /* gap: 1re; */
+    /* flex-direction: row;
+    justify-content: start;
+    gap: 1.7rem;   */
     
 }
 
+.second-container a .circle{
+    width: 5px;
+    height: 5px;
+    background-color: #EB5757;
+    border-radius: 50%;
+    align-self: flex-start;
+    position: absolute;
+    top: -.1rem;
+    left: -.2rem;
+    /* left: -5rem; */
+    /* position: relative;
+    left: -5px; */
+}
+
+.second-container a .cName{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+}
+
+.second-container a .cName .community-imgs{
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    /* position: relative; */
+    /* top: -5px; */
+    /* padding: 0 1.2rem 0 0; */
+}
+
+
 /* hover effect */
 
-.sidebar:hover{
+/* .sidebar:hover{
     width: 220px;
     padding-left: 0.5rem;
     box-sizing: border-box;
@@ -89,6 +145,10 @@ a{
 .sidebar:hover a{
     gap: 0;
 }
+
+.sidebar:hover .hr{
+    width: 85%;
+} */
 
 /* hover effect end*/
 
