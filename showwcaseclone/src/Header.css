@@ -22,13 +22,22 @@
     align-content: center;
 }
 
+.back-btn{
+    padding: 4px 6px;
+}
 
 .angle-left{
-    font-size: 0.8rem;
-    padding: 4px 6px;
+    font-size: 0.7rem;
+    padding: 6px 10px;
     /* background-color: white; */
     border-radius: 3px;
     margin-right: 10px;
+}
+
+.angle-left:hover{
+    border-radius: 5px;
+    color: #206cef;
+    background-color: #2c2c2c95;
 }
 
 .back{
@@ -52,6 +61,16 @@
     /* margin-right: 15px; */
 }
 
+.bells{
+    padding: 4px 2px;
+}
+
+.bells:hover{
+    border-radius: 5px;
+    color: #206cef;
+    background-color: #2c2c2c95;
+}
+
 .profile-photo{
     width: 20px;
     height: 20px;
@@ -60,9 +79,15 @@
 
 .profile{
     width: 100%;
+    padding: 7px 0px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.profile:hover{
+    background-color: #2c2c2c95;
+    border-radius: 5px;
 }
 
 .user-name{
@@ -70,6 +95,11 @@
     color: white;
     font-size: 13px;
     line-height: 18px;
+}
+
+.profile i{
+    font-size: 0.7rem;
+    /* padding: 4px 6px; */
 }
 
 

@@ -9,7 +9,7 @@ export default function Header(){
                     <span className="back">Back</span>
                 </div>
                 <div className="profile-menu">
-                    <div>
+                    <div className='bells'>
                     <i class="fa-solid fa-bell bell"></i>
                     </div>
                     <div className="profile">
