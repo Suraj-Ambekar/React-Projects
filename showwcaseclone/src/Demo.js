@@ -1,5 +1,6 @@
 import './Demo.css';
 import communites from './communities';
+import {useState} from 'react';
 
 const community = communites.map(item=>{
     let communityName = item.name;
@@ -15,17 +16,26 @@ const community = communites.map(item=>{
     // console.log(b)
 
     return(
-        <a href="www.google.com">
+        <a href="">
             <div className="cName">
                 <div className="circle"></div>
                 <img className="community-imgs" src={item.src} alt={item.alt} />
                 <span className="active">{changedCommunityName}</span>
             </div>
+            {/* <span onMouseOver={()=>mouse()} class="tooltip" className="tooltip">{communityName}</span> */}
         </a>
     )
   })
 
 export default function Demo(){
+
+
+    // let spanText = document.querySelector("tooltip");
+    // window.onmousemove= function(e){
+    //     let x = e.clientX, y = e.clientY;
+    //     spanText.style.top = (y+20)+ 'px';
+    //     spanText.style.left = (x+20) + 'px';
+    // }
     
     return(
         <div className="sidebar">

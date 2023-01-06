@@ -49,6 +49,10 @@ a{
     margin-bottom: 0.8rem;
 }
 
+.add:hover{
+    background-color: #206cef4f;
+}
+
 .home{
     display: flex;
     flex-direction: column;
@@ -152,6 +156,11 @@ a{
     left: -5px; */
 }
 
+/* .second-container a{
+    position: relative;
+    border: 2px solid red;
+} */
+
 .second-container a .cName{
     display: flex;
     align-items: center;
@@ -168,10 +177,27 @@ a{
     /* padding: 0 1.2rem 0 0; */
 }
 
-.second-container a .cName span{
+.second-container a .cName .active{
     width: 0;
     height: 18px;
 }
+
+/* .tooltip{
+    position: fixed;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    background-color: pink;
+    color: #000;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 5px 20px;
+}
+
+.second-container a:hover .tooltip{
+    opacity: 1;
+    visibility: visible;
+} */
 
 .home a, .second-container a{
     text-decoration: none;
@@ -210,6 +236,8 @@ a{
 /* hover effect */
 
 .sidebar:hover{
+    transition: .2s;
+    transition-timing-function: ease-in-out;
     width: 220px;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
