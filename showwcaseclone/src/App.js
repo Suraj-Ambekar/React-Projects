@@ -1,6 +1,7 @@
 import Header from "./Header";
 // import Sidebar from "./Sidebar";
 import Demo from "./Demo";
+// import Dropdown from "./Dropdown";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       < Header />
       {/* < Sidebar /> */}
       < Demo />
+      {/* < Dropdown /> */}
     </div>
   );
 }
