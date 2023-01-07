@@ -29,7 +29,7 @@ export default function Header(){
                 </div>
                 <div className={dropdown ? "dropdown": "hide-dropdown"}>
                     <div className="dropdown-first-section">
-                        <a href="www.google.com">
+                        <a target='_blank' rel="noreferrer" href="https://www.showwcase.com/surajambekar">
                             <div className="image">
                                 <img src="./profilePic.jpg" alt="profile" />
                             </div>
