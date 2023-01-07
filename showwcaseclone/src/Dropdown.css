@@ -3,6 +3,12 @@
     margin: 20px 250px;
 } */
 
+/* to hide drop down list */
+.hide-dropdown{
+    display: none;
+}
+
+/* end */
 
 
 .dropdown{
