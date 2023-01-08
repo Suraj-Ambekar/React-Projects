@@ -63,12 +63,14 @@
     color: white;
     padding: 0px;
     margin: 13px 0 0 0;
+    margin-left: -1.2rem;
 }
 .container-sidebar .intro .u-name{
     font-weight: 200;
     color: #808080;
     padding: 0px;
     margin: 5px 0 0 0;
+    margin-left: -1.2rem;
 }
 
 .container-sidebar .intro .para{
@@ -111,28 +113,37 @@
 
 .container-sidebar .more-shows{
     width: 254px;
-    height: 450px;
+    height: 520px;
     padding: 12px;
     /* border: 1px solid purple; */
     background-color: #1D1D1E;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: -2rem;
+
+}
+
+.container-sidebar .more-shows .p{
+    margin: 4px 0 0px 0px;
+    color: white;
+    font-size: 1.1rem;
 }
 
 .container-sidebar .more-shows .shows{
     width: 254px;
     height: 522px;
-    
+    margin-top: -5px;
+    /* display: grid; */
+    /* grid-template-rows: repeat(5,1fr); */
+
 }
 
 .container-sidebar .more-shows .shows .a{
     text-decoration: none;
 }
 
-.p{
-    margin: 4px 0 10px 0px;
-    color: white;
-    font-size: 1.1rem;
-}
+
 
 .container-sidebar .more-shows .shows .show{
     width: 254px;
@@ -173,8 +184,9 @@
     color: white;
 }
 
-.show-details h2{
+.show-details a h2{
     margin: 0;
+    margin-left: -1.3rem;
     font-size: 0.75rem;
     color: rgb(201, 197, 197);
 }
