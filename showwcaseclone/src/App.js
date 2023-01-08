@@ -1,8 +1,9 @@
 import Header from "./Header";
 // import Sidebar from "./Sidebar";
-import Demo from "./Demo";
+// import Demo from "./Demo";
+import Main from "./Main";
 // import Dropdown from "./Dropdown";
-import {useState} from 'react';
+// import {useState} from 'react';
 
 function App() {
   // const [create, setCreate] = useState(true);
@@ -14,8 +15,9 @@ function App() {
   return (
     <div className="App">
       < Header />
+      < Main />
       {/* < Sidebar /> */}
-      < Demo />
+      {/* < Demo /> */}
       {/* < Dropdown /> */}
     </div>
   );

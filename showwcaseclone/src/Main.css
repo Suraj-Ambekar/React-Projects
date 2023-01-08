@@ -1,0 +1,121 @@
+.main{
+    /* background-color: rgb(174, 163, 163); */
+    background-color: #171718;
+    color: gray;
+    height: 100vh;
+    padding-left: 18%;
+    /* padding-right: 20%; */
+    padding-right: 18%;
+    position: relative;
+    padding-top: 20px;
+}
+
+.container{
+    /* width: 100%; */
+    /* background-color: green; */
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    /* grid-template-columns: 1fr 30%; */
+    align-content: center;
+    gap: 1rem;
+}
+
+.content{
+    border: 2px solid red;
+    height: 100vh;
+}
+
+.container-sidebar{
+    /* border: 1px solid white; */
+    height: 100vh;
+    display: grid;
+    gap: 1rem;
+}
+
+.container-sidebar .intro{
+    width: 254px;
+    height: 188px;
+    padding: 12px;
+    /* border: 1px solid purple; */
+    background-color: #1D1D1E;
+    display: flex;
+    flex-direction: column;
+    /* gap: 0.2rem; */
+}
+
+.container-sidebar .intro img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.container-sidebar .intro a{
+    text-decoration: none;
+}
+
+
+
+.container-sidebar .intro .name{
+    color: white;
+    padding: 0px;
+    margin: 13px 0 0 0;
+}
+.container-sidebar .intro .u-name{
+    font-weight: 200;
+    color: #808080;
+    padding: 0px;
+    margin: 5px 0 0 0;
+}
+
+.container-sidebar .intro .para{
+    font-size: 0.9rem;
+}
+
+.container-sidebar .tags{
+    width: 254px;
+    height: 156px;
+    padding: 12px;
+    /* border: 1px solid purple; */
+    background-color: #1D1D1E;
+
+}
+
+.container-sidebar .tags h3{
+    color: white;
+    margin: 0 0 15px 0;
+}
+
+.container-sidebar .tags .tags-name{
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    /* border: 2px solid red; */
+}
+
+.container-sidebar .tags .tags-name .tag-name{
+    border: 1px solid #202021;
+    background-color: #202021;
+    border-radius: 5px;
+    height: 24px;
+    padding: 3px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.container-sidebar .more-shows{
+    width: 254px;
+    height: 522px;
+    padding: 12px;
+    /* border: 1px solid purple; */
+    background-color: #1D1D1E;
+
+}
+
+

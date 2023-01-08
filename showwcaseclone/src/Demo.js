@@ -2,7 +2,7 @@ import './Demo.css';
 import communites from './communities';
 import './Header.css';
 // import {useState} from 'react';
-import {useState} from 'react';
+// import {useState} from 'react';
 
 const community = communites.map(item=>{
     let communityName = item.name;
