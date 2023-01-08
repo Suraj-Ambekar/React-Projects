@@ -2,12 +2,13 @@
     /* background-color: rgb(174, 163, 163); */
     background-color: #171718;
     color: gray;
-    height: 100vh;
+    /* height: 100vh; */
     padding-left: 18%;
     /* padding-right: 20%; */
     padding-right: 18%;
     position: relative;
     padding-top: 20px;
+    /* z-index: -1; */
 }
 
 .container{
@@ -43,6 +44,7 @@
     display: flex;
     flex-direction: column;
     /* gap: 0.2rem; */
+    border-radius: 5px;
 }
 
 .container-sidebar .intro img{
@@ -79,6 +81,7 @@
     padding: 12px;
     /* border: 1px solid purple; */
     background-color: #1D1D1E;
+    border-radius: 5px;
 
 }
 
@@ -106,16 +109,102 @@
     align-items: center;
 }
 
-
-
-
 .container-sidebar .more-shows{
     width: 254px;
-    height: 522px;
+    height: 450px;
     padding: 12px;
     /* border: 1px solid purple; */
     background-color: #1D1D1E;
-
+    border-radius: 5px;
 }
 
+.container-sidebar .more-shows .shows{
+    width: 254px;
+    height: 522px;
+    
+}
 
+.container-sidebar .more-shows .shows .a{
+    text-decoration: none;
+}
+
+.p{
+    margin: 4px 0 10px 0px;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.container-sidebar .more-shows .shows .show{
+    width: 254px;
+    height: 86px;
+    /* border: 1px solid blue; */
+    padding: 8px;
+    box-sizing: border-box;
+    color: white;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.6rem;
+}
+
+.container-sidebar .more-shows .shows .show:hover{
+    background-color: rgba(0, 0, 0, 0.221);
+}
+
+.container-sidebar .more-shows .shows .show img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.show-details{
+    /* padding: 4px 0; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    gap: 0.2rem;
+}
+
+.show-details a{
+    text-decoration: none;
+}
+
+.show-details a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.show-details h2{
+    margin: 0;
+    font-size: 0.75rem;
+    color: rgb(201, 197, 197);
+}
+.show-details h3{
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.views{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.show-details .i{
+    width: 20px;
+    height: 20px;
+    /* border: 2px solid green; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(80, 80, 189, 0.427);
+}
+
+.show-details .i i{
+    font-size: 0.75rem;
+    color: #4CA9AF;
+}
+.show-details span{
+    padding-top: 4px;
+    font-size: 0.8rem;
+    color: #808080;
+}
