@@ -10,6 +10,12 @@ export default function Header(){
         setDropdown(prevDropdown => !prevDropdown);
     }
 
+    // const [create, setCreate] = useState(true);
+
+    // function handleClicked(){
+    //     setCreate(prevCreate => !prevCreate);
+    // }
+
     return(
         <header className="header">
             <nav className="navbar">
@@ -126,6 +132,28 @@ export default function Header(){
                     </div>
                 </div>
             </nav>
+            {/* new button start */}
+                    {/* <div className={props.create ? "dark": "create dark"}>
+                        <div>
+                            <a href="www.google.com" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-message"></i>
+                                <span>New Thread</span>
+                            </a>
+                            <a href="www.google.com" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-newspaper"></i>
+                                <span>New Show</span>
+                            </a>
+                            <a href="www.google.com" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-layer-group"></i>
+                                <span>New Series</span>
+                            </a>
+                            <a href="www.google.com" target="_blank" rel="noopener noreferrer">
+                                <i class="fa-solid fa-users"></i>
+                                <span>New Community</span>
+                            </a>
+                        </div>
+                    </div> */}
+            {/* new button end */}
             
         </header>
     )

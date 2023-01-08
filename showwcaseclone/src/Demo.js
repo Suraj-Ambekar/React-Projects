@@ -1,6 +1,8 @@
 import './Demo.css';
 import communites from './communities';
+import './Header.css';
 // import {useState} from 'react';
+import {useState} from 'react';
 
 const community = communites.map(item=>{
     let communityName = item.name;
@@ -68,7 +70,7 @@ export default function Demo(){
                 <button className="refer-btn">
                     <i class="fa-solid fa-user-plus refer"></i>
                 </button>
-            </div>
+            </div>     
         </div>
     )
 }
