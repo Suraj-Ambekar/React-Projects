@@ -23,10 +23,100 @@
     gap: 1rem;
 }
 
+/* content start */
+
 .content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 100vh;
 }
+
+.content .content-first-section .content-cover-img{
+    width: 670px;
+    height: 447px;
+    border: 2px solid green;
+    background-image: url("/public/flexbox.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+/* .content .content-first-section .content-cover-img img{
+    background-size: cover;
+} */
+
+.content .content-first-section .content-main{
+    border: 2px solid green;
+}
+
+.content .content-first-section .content-main .content-info{
+    /* border: 2px solid pink; */
+    height: 34px;
+    display: flex;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.content .content-first-section .content-main .content-info button{
+    width: 79px;
+    height: 34px;
+    border: none;
+    border-radius: 5px;
+    color: #4fb9c1;
+    background-color: #4ca8af8e;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.content .content-first-section .content-main .content-info .content-social-icons{
+    /* display: flex; */
+    /* align-self: center; */
+    /* margin-left: 10px; */
+    display: flex;
+    /* margin: 0 auto; */
+    margin-left: 230px;
+    gap: 0.6rem;
+}
+
+.content .content-first-section .content-main .content-info .content-social-icons .social-icon{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .content-first-section .content-main .content-info .content-social-icons .social-iconss{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .content-first-section .content-main .content-info .content-social-icons .social-icon i{
+    color: black;
+    font-size: 0.6rem;
+}
+.content .content-first-section .content-main .content-info .content-social-icons .social-iconss i{
+    color: black;
+    font-size: 0.8rem;
+}
+
+.content .content-first-section .content-main .show-heading{
+    color: white;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+
+/* content end */
+
 
 .container-sidebar{
     /* border: 1px solid white; */

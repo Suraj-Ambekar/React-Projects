@@ -20,10 +20,11 @@
     position: absolute;
     top: 48px;
     right: 10px;
-    background-color: black;
+    background-color: #171717;
     overflow: scroll;
     overflow-x: hidden;
-    box-shadow: 2px 2px 5px gray, -2px 0px 5px gray;
+    /* box-shadow: 2px 2px 5px gray, -2px 0px 5px gray; */
+    z-index: 5;
 }
 
 ::-webkit-scrollbar{
@@ -236,6 +237,6 @@
 }
 
 .active{
-    background-color: black;
+    background-color: #171718;
     color: white;
 }

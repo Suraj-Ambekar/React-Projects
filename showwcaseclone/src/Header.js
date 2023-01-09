@@ -124,7 +124,7 @@ export default function Header(){
                         <div className="div">
                             <span className="p">Appearance</span>
                             <div className="modes">
-                                <div className="dark mode active">Dark</div>
+                                <div className="darkk mode active">Dark</div>
                                 <div className="light mode">Light</div>
                                 <div className="system mode">System</div>
                             </div>

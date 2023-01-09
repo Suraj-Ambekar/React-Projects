@@ -5,7 +5,40 @@ function Main(){
         <main className="main">
             <div className="container">
                 <div className="content">
-
+                    <div className="content-first-section">
+                        <div className="content-cover-img">
+                            {/* <img src="./flexbox.jpg" alt="cover img" /> */}
+                        </div>
+                        <div className="content-main">
+                            <div className="content-info">
+                                <button>
+                                    <i class="fa-solid fa-newspaper"></i>
+                                    <span>Blog</span>
+                                </button>
+                                <p>9 December, 2022 - 10 min read</p>
+                                <div className="content-social-icons">
+                                    <div className="social-icon">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </div>
+                                    <div className="social-icon">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </div>
+                                    <div className="social-icon">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </div>
+                                    <div className="social-iconss">
+                                        <i class="fa-solid fa-link"></i>
+                                    </div>
+                                    <div className="social-iconss">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="show-heading">
+                                <h1>Introduction to Flexbox</h1>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="container-sidebar">
                     <div className="intro">
