@@ -56,8 +56,39 @@ function Main(){
                             </div>
                             <div className="table-of-content">
                                 <h3>Table of Contents</h3>
-                                <h5>Introduction to CSS Flexbox</h5>
+                                <div>
+                                    <h5>Introduction to CSS Flexbox</h5>
+                                    <h5>1. Set the viewport</h5>
+                                    <h5>2. Set appropriate breakpoints on you website</h5>
+                                    <h5>3. Use Fluid Grid</h5>
+                                    <h5>4. Tak touch screen into consideration</h5>
+                                    <h5>5. Define typography</h5>
+                                    <h5>Conclusion</h5>
+                                </div>
                             </div>
+                            <div>
+                                {/* **********************MAIN CONTENT******************** */}
+                            </div>
+                            <div className="tags-name">
+                                <span className="tag-names">letslearntogether</span>
+                                <span className="tag-names">mern</span>
+                                <span className="tag-names">365daysofcontent</span>
+                                <span className="tag-names">css</span>
+                                <span className="tag-names">flexbox</span>
+                                {/* <span className="tag-name"></span> */}
+                            </div>
+                            <div className="like">
+                                <div className="likes">
+                                    <i class="fa-solid fa-heart"></i><span>50K</span>
+                                </div>
+                                <div className="comments">
+                                    <i class="fa-solid fa-comment-dots"></i><span></span>
+                                </div>
+                                <div className="bookmark">
+                                    <i class="fa-solid fa-bookmark"></i>
+                                </div>
+                            </div>
+                            <div className="hr-line"></div>
                         </div>
                     </div>
                 </div>
@@ -73,11 +104,11 @@ function Main(){
                     <div className="tags">
                         <h3>Tags</h3>
                         <div className="tags-name">
-                            <span className="tag-name">letslearntogether</span>
-                            <span className="tag-name">mern</span>
-                            <span className="tag-name">365daysofcontent</span>
-                            <span className="tag-name">css</span>
-                            <span className="tag-name">flexbox</span>
+                            <span className="tag-names">letslearntogether</span>
+                            <span className="tag-names">mern</span>
+                            <span className="tag-names">365daysofcontent</span>
+                            <span className="tag-names">css</span>
+                            <span className="tag-names">flexbox</span>
                             {/* <span className="tag-name"></span> */}
                         </div>
                     </div>
