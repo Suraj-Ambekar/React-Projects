@@ -35,7 +35,28 @@ function Main(){
                                 </div>
                             </div>
                             <div className="show-heading">
-                                <h1>Introduction to Flexbox</h1>
+                                <h1>Introduction to CSS Flexbox</h1>
+                            </div>
+                            <div className="contributors">
+                                <div className="contributors-pic">
+                                    <span>Contributors</span>
+                                    <a href="https://www.showwcase.com/surajambekar" target="_blank" rel="noreferrer"><img src="./ProfilePic.jpg" alt="contributors pic" /></a>
+                                </div>
+                                <div className="like">
+                                    <div className="likes">
+                                        <i class="fa-solid fa-heart"></i><span>50K</span>
+                                    </div>
+                                    <div className="comments">
+                                        <i class="fa-solid fa-comment-dots"></i><span></span>
+                                    </div>
+                                    <div className="bookmark">
+                                        <i class="fa-solid fa-bookmark"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="table-of-content">
+                                <h3>Table of Contents</h3>
+                                <h5>Introduction to CSS Flexbox</h5>
                             </div>
                         </div>
                     </div>
