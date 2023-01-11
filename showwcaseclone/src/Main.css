@@ -212,19 +212,154 @@
 
 .content .content-first-section .content-main .comment-profile-view{
     height: 85px;
-    margin-bottom: 200px;
-    border: 2px solid blue;
+    padding: 16px 20px 0 20px;
+    /* margin-bottom: 200px; */
+    /* border: 2px solid blue; */
     cursor: pointer;
     display: grid;
-    grid-template-columns: 20% auto;
+    grid-template-columns: 10% auto;
+    /* justify-content: center; */
+    /* align-items: flex-start; */
 }
+
+.content .content-first-section .content-main .comment-profile-view:hover{
+    background-color: rgba(0, 0, 0, 0.095);
+}
+
 .content .content-first-section .content-main .comment-profile-view a img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    /* border: 2px solid pink; */
 }
 
+.content .content-first-section .content-main .comment-profile-view .comment-profile-view-div div{
+    display: flex;
+    align-items: flex-end;
+    gap: 0.6rem;
+}
 
+.content .content-first-section .content-main .comment-profile-view .comment-profile-view-div div a{
+    text-decoration: none;
+}
+
+.content .content-first-section .content-main .comment-profile-view .comment-profile-view-div div a h4, .content .content-first-section .content-main .comment-profile-view .comment-profile-view-div div a h5{
+    margin: 0;
+}
+/* .content .content-first-section .content-main .comment-profile-view .comment-profile-view-div div a{
+    margin-top: -0.5rem;
+    padding: 0;
+} */
+
+.content .content-first-section .content-main .comment-profile-view .name{
+    color: white;
+    padding: 0px;
+    margin: 13px 0 0 0;
+    /* margin-left: -1.2rem; */
+}
+.content .content-first-section .content-main .comment-profile-view .u-name{
+    font-weight: 200;
+    color: #808080;
+    padding: 0px;
+    margin: 5px 0 0 0;
+    /* margin-left: -1.2rem; */
+}
+
+.content .content-first-section .content-main .comment-profile-view .para{
+    font-size: 0.9rem;
+    color: white;
+}
+
+/* .content .content-first-section .content-main .comment-section{
+    margin: 10px 0;
+    border: 2px solid pink;
+} */
+
+.content .content-first-section .content-main .comment-section .discussion{
+    color: white;
+}
+
+.content .content-first-section .content-main .comment-section .comment-box{
+    box-sizing: border-box;
+    height: 144px;
+    border: 1px solid #202021;
+    /* border: 2px solid green; */
+    border-radius: 5px;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content .content-first-section .content-main .comment-section .comment-box textarea{
+    min-width: 647px;
+    max-width: 647px;
+    /* height: 24px; */
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    /* border: 2px solid red; */
+
+}
+
+.content .content-first-section .content-main .comment-section .comment-box .styling{
+    height: 35px;
+    /* border: 2px solid pink; */
+    padding: 5px 5px; 
+    background-color: #101011;
+}
+.content .content-first-section .content-main .comment-section .comment-box .styling .style-icons{
+    box-sizing: border-box;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+}
+
+.content .content-first-section .content-main .comment-section .comment-box .styling .style-icons .icons{
+    display: flex;
+}
+.content .content-first-section .content-main .comment-section .comment-box .styling .style-icons .icons .style-ic{
+    width: 34px;
+    height: 35px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.content .content-first-section .content-main .comment-section .comment-box .styling .style-icons .icons .style-ic i{
+    color: white;
+}
+
+.content .content-first-section .content-main .comment-section .comment-box .styling .style-icons .style-btns{
+    display: flex;
+    gap: 0.4rem;
+}
+
+.content .content-first-section .content-main .comment-section .comment-box .styling .style-icons .style-btns .style-btn{
+    padding: 5px 10px;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.content .content-first-section .content-main .comment-section .comment-box .styling .style-icons .style-btns .style-btn:hover{
+    background-color: #202021;
+    border-radius: 5px;
+}
+
+.content .content-first-section .content-main .comment-section .comment-box .styling .style-icons .style-btns .send-btn{
+    width: 74px;
+    background-color: transparent;
+    border: 1px solid rgba(55, 55, 255, 0.456);
+    border-radius: 5px;
+    color: rgba(42, 42, 255, 0.738);
+}
 /* content end */
 
 

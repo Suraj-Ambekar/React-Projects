@@ -93,13 +93,65 @@ function Main(){
                                 <a href="https://www.showwcase.com/surajambekar" target="_blank" rel="noreferrer">
                                     <img src="./ProfilePic.jpg" alt="profile"/>
                                 </a>
-                                <div >
+                                <div className="comment-profile-view-div">
                                     <div>
                                         <a href="https://www.showwcase.com/surajambekar" target="_blank" rel="noreferrer"><h4 className="name">Suraj Ambekar</h4></a>
                                         <a href="https://www.showwcase.com/surajambekar" target="_blank" rel="noreferrer"><h5 className="u-name">@surajambekar</h5></a>
                                     </div>
                                     <h5 className="u-name">Mumbai, India</h5>
                                     <p className="para">I am a MERN Stack Developer and I love to code.</p>
+                                </div>
+                            </div>
+                            <div className="comment-section">
+                                <h3 className="discussion">Discussion</h3>
+                                <div className="comment-box">
+                                    <textarea placeholder="Write something nice" row="20"> </textarea>
+                                    <div className="styling">
+                                        <div className="style-icons">
+                                            <div className="icons">
+                                                <div className="style-ic">
+                                                    <i class="fa-solid fa-h"></i>
+                                                </div>
+                                                <div className="style-ic">
+                                                    <i class="fa-solid fa-b"></i>
+                                                </div>
+                                                <div className="style-ic">
+                                                    <i class="fa-solid fa-italic"></i>
+                                                </div>
+                                                <div className="style-ic">
+                                                    <i class="fa-solid fa-quote-left"></i>  
+                                                </div>
+                                                <div className="style-ic">
+                                                    <i class="fa-solid fa-code"></i>
+                                                </div>
+                                                <div className="style-ic">
+                                                    <i class="fa-solid fa-link"></i>
+                                                </div>
+                                                <div className="style-ic">
+                                                    <i class="fa-regular fa-list"></i>
+                                                </div>
+                                                <div className="style-ic">
+                                                    <i class="fa-solid fa-list-ol"></i>
+                                                </div>
+                                                <div className="style-ic">
+                                                    <i class="fa-solid fa-image"></i>
+                                                </div>
+                                            </div>
+                                            <div className="style-btns">
+                                                <div className="style-btn">
+                                                    <i class="fa-sharp fa-solid fa-pen"></i>
+                                                    <span className="write">Write</span>
+                                                </div>
+                                                <div className="style-btn">
+                                                    <i class="fa-solid fa-eye"></i>
+                                                    <span className="preview">Preview</span>
+                                                </div>
+                                                <button className="style-btn send-btn">
+                                                    Send
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
