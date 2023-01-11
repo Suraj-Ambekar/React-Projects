@@ -210,6 +210,21 @@
     border-top: 1px  solid #202021;
 }
 
+.content .content-first-section .content-main .comment-profile-view{
+    height: 85px;
+    margin-bottom: 200px;
+    border: 2px solid blue;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+.content .content-first-section .content-main .comment-profile-view a img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
 /* content end */
 
 
@@ -248,14 +263,14 @@
     color: white;
     padding: 0px;
     margin: 13px 0 0 0;
-    margin-left: -1.2rem;
+    /* margin-left: -1.2rem; */
 }
 .container-sidebar .intro .u-name{
     font-weight: 200;
     color: #808080;
     padding: 0px;
     margin: 5px 0 0 0;
-    margin-left: -1.2rem;
+    /* margin-left: -1.2rem; */
 }
 
 .container-sidebar .intro .para{
@@ -298,7 +313,7 @@
 
 .container-sidebar .more-shows{
     width: 254px;
-    height: 520px;
+    height: 460px;
     padding: 12px;
     /* border: 1px solid purple; */
     background-color: #1D1D1E;
@@ -318,9 +333,9 @@
 .container-sidebar .more-shows .shows{
     width: 254px;
     height: 522px;
-    margin-top: -5px;
-    /* display: grid; */
-    /* grid-template-rows: repeat(5,1fr); */
+    margin-top: 8px;
+    /* display: grid;
+    grid-template-rows: repeat(5,1fr); */
 
 }
 
@@ -371,7 +386,7 @@
 
 .show-details a h2{
     margin: 0;
-    margin-left: -1.3rem;
+    /* margin-left: -1.3rem; */
     font-size: 0.75rem;
     color: rgb(201, 197, 197);
 }

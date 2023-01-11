@@ -89,6 +89,19 @@ function Main(){
                                 </div>
                             </div>
                             <div className="hr-line"></div>
+                            <div className="comment-profile-view">
+                                <a href="https://www.showwcase.com/surajambekar" target="_blank" rel="noreferrer">
+                                    <img src="./ProfilePic.jpg" alt="profile"/>
+                                </a>
+                                <div >
+                                    <div>
+                                        <a href="https://www.showwcase.com/surajambekar" target="_blank" rel="noreferrer"><h4 className="name">Suraj Ambekar</h4></a>
+                                        <a href="https://www.showwcase.com/surajambekar" target="_blank" rel="noreferrer"><h5 className="u-name">@surajambekar</h5></a>
+                                    </div>
+                                    <h5 className="u-name">Mumbai, India</h5>
+                                    <p className="para">I am a MERN Stack Developer and I love to code.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
