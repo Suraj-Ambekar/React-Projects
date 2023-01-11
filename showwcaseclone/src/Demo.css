@@ -23,7 +23,7 @@
     /* padding: 0 1rem; */
 }
 
-a{
+.home-a, .sidebar a{
     /* background-color: pink; */
     margin-left: 4px;
     padding: 0 1rem;
