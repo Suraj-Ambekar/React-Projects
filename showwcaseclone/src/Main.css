@@ -270,10 +270,10 @@
     color: white;
 }
 
-/* .content .content-first-section .content-main .comment-section{
-    margin: 10px 0;
-    border: 2px solid pink;
-} */
+.content .content-first-section .content-main .comment-section{
+    margin-bottom: 50px;
+    /* border: 2px solid pink; */
+}
 
 .content .content-first-section .content-main .comment-section .discussion{
     color: white;
@@ -292,6 +292,7 @@
 }
 
 .content .content-first-section .content-main .comment-section .comment-box textarea{
+    font-size: 20px;
     min-width: 647px;
     max-width: 647px;
     /* height: 24px; */
@@ -301,6 +302,11 @@
     color: white;
     /* border: 2px solid red; */
 
+}
+
+
+.content .content-first-section .content-main .comment-section .comment-box textarea::placeholder {
+    font: 20px sans-serif;
 }
 
 .content .content-first-section .content-main .comment-section .comment-box .styling{
@@ -346,6 +352,11 @@
     justify-content: center;
     align-items: center;
     gap: 0.3rem;
+    
+}
+
+.write{
+    color: #4595D0;
 }
 
 .content .content-first-section .content-main .comment-section .comment-box .styling .style-icons .style-btns .style-btn:hover{
@@ -356,10 +367,111 @@
 .content .content-first-section .content-main .comment-section .comment-box .styling .style-icons .style-btns .send-btn{
     width: 74px;
     background-color: transparent;
-    border: 1px solid rgba(55, 55, 255, 0.456);
+    border: 1px solid #4595D0;
     border-radius: 5px;
-    color: rgba(42, 42, 255, 0.738);
+    color: #4595D0;
+    font-weight: 700;
 }
+
+.content .content-first-section .content-main .last-section{
+    height: 780px;
+}
+
+.content .content-first-section .content-main .last-section div{
+    margin-bottom: 20px;
+}
+
+.content .content-first-section .content-main .last-section div h3{
+    color: white;
+}
+
+.content .content-first-section .content-main .last-section .shows-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0rem 0.65rem;
+}
+
+.content .content-first-section .content-main .last-section .shows-list .listed-show{
+    width: 327px;
+    height: 337px;
+    /* border: 2px solid green; */
+    border-radius: 5px;
+    /* box-sizing: border-box; */
+    cursor: pointer;
+}
+
+.content .content-first-section .content-main .last-section .shows-list .listed-show .listed-show-img{
+    height: 45%;
+    margin: 0;
+}
+.content .content-first-section .content-main .last-section .shows-list .listed-show .listed-show-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.content .content-first-section .content-main .last-section .shows-list .listed-show .listed-show-content{
+    background-color: rgba(0, 0, 0, 0.421);
+    padding: 6px 8px 0px 8px;
+    border-radius: 0 0 5px 5px;
+    
+}
+
+.content .content-first-section .content-main .last-section .shows-list .listed-show .listed-show-content .div{
+    width: 79px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: #4fb9c1;
+    background-color: #4ca8af2b;
+    border: 1px solid #4fb9c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.content .content-first-section .content-main .last-section .shows-list .listed-show .listed-show-content h3{
+    font-size: 1.2rem;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+.content .content-first-section .content-main .last-section .shows-list .listed-show .listed-show-content h3:hover{
+    text-decoration: underline;
+}
+
+.content .content-first-section .content-main .last-section .shows-list .listed-show .listed-show-content h3 a{
+    text-decoration: none;
+    color: white;
+}
+
+.content .content-first-section .content-main .last-section .shows-list .listed-show .listed-show-content p{
+    margin: 0 0 7px 0;
+}
+
+.content .content-first-section .content-main .last-section .shows-list .listed-show .listed-show-content .pc{
+    display: flex;
+    gap: 0.7rem;
+}
+
+.content .content-first-section .content-main .last-section .shows-list .listed-show .listed-show-content .pc img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
 /* content end */
 
 

@@ -105,7 +105,7 @@ function Main(){
                             <div className="comment-section">
                                 <h3 className="discussion">Discussion</h3>
                                 <div className="comment-box">
-                                    <textarea placeholder="Write something nice" row="20"> </textarea>
+                                    <textarea placeholder="Write something nice"></textarea>
                                     <div className="styling">
                                         <div className="style-icons">
                                             <div className="icons">
@@ -128,7 +128,7 @@ function Main(){
                                                     <i class="fa-solid fa-link"></i>
                                                 </div>
                                                 <div className="style-ic">
-                                                    <i class="fa-regular fa-list"></i>
+                                                    <i class="fa-solid fa-list-ul"></i>
                                                 </div>
                                                 <div className="style-ic">
                                                     <i class="fa-solid fa-list-ol"></i>
@@ -138,7 +138,7 @@ function Main(){
                                                 </div>
                                             </div>
                                             <div className="style-btns">
-                                                <div className="style-btn">
+                                                <div className="style-btn write">
                                                     <i class="fa-sharp fa-solid fa-pen"></i>
                                                     <span className="write">Write</span>
                                                 </div>
@@ -149,6 +149,79 @@ function Main(){
                                                 <button className="style-btn send-btn">
                                                     Send
                                                 </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="last-section">
+                                <div><h3>More Shows</h3></div>
+                                <div className="shows-list">
+                                    <div className="listed-show">
+                                        <div className="listed-show-img">
+                                            <img src="https://project-assets.showwcase.com/300x/49986/1670583348584-response.jpg?type=webp" alt="intro pic" />
+                                        </div>
+                                        <div className="listed-show-content">
+                                            <div className="div">
+                                                <i class="fa-solid fa-newspaper"></i>
+                                                <span>Blog</span>
+                                            </div>
+                                            <h3><a href="https://www.showwcase.com/show/19194/how-to-create-a-responsive-website">How to create a Responsive Website</a></h3>
+                                            <p>Exaplaination about how to create a responsive website</p>
+                                            <div className="pc">
+                                                <img src="ProfilePic.jpg" alt="picc" />
+                                                <p>Suraj - 3 min read</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="listed-show">
+                                            <div className="listed-show-img">
+                                                <img src="https://project-assets.showwcase.com/300x/49986/1670028714669-web.jpg?type=webp" alt="intro pic" />
+                                            </div>
+                                            <div className="listed-show-content">
+                                                <div className="div">
+                                                    <i class="fa-solid fa-newspaper"></i>
+                                                    <span>Blog</span>
+                                                </div>
+                                                <h3><a href="https://www.showwcase.com/show/18962/free-resources-for-your-web-development-career">Free Resources For Your Web Developement Career</a></h3>
+                                                <p>Uploaded so many free resource for your web developement career</p>
+                                                <div className="pc">
+                                                    <img src="ProfilePic.jpg" alt="picc" />
+                                                    <p>Suraj - 3 min read</p>
+                                                </div>
+                                            </div>
+                                    </div>
+                                    <div className="listed-show">
+                                        <div className="listed-show-img">
+                                            <img src="https://project-assets.showwcase.com/49986/1669399632482-Team%2520of%2520tiny%2520business%2520persons%2520launching%25" alt="intro pic" />
+                                        </div>
+                                        <div className="listed-show-content">
+                                            <div className="div">
+                                                <i class="fa-solid fa-newspaper"></i>
+                                                <span>Blog</span>
+                                            </div>
+                                            <h3><a href="https://www.showwcase.com/show/18714/12-steps-you-need-to-take-before-deploying-your-website">12 Steps You Need To Take Before Deploying ...</a></h3>
+                                            <p>Explained 12 steps you nened to tak before deploying your website</p>
+                                            <div className="pc">
+                                                <img src="ProfilePic.jpg" alt="picc" />
+                                                <p>Suraj - 3 min read</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="listed-show">
+                                        <div className="listed-show-img">
+                                            <img src="https://project-assets.showwcase.com/300x/49986/1668770804562-Front%2520End%2520Developer.jpg?type=webp" alt="intro pic" />
+                                        </div>
+                                        <div className="listed-show-content">
+                                            <div className="div">
+                                                <i class="fa-solid fa-newspaper"></i>
+                                                <span>Blog</span>
+                                            </div>
+                                            <h3><a href="https://www.showwcase.com/show/18485/how-to-become-a-front-end-developers">How to Become a Front-End Developer?</a></h3>
+                                            <p>Exaplained how we can become a Fron-Eend developer</p>
+                                            <div className="pc">
+                                                <img src="ProfilePic.jpg" alt="picc" />
+                                                <p>Suraj - 3 min read</p>
                                             </div>
                                         </div>
                                     </div>
