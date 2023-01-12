@@ -1,6 +1,14 @@
 import "./Main.css";
+import {useRef} from 'react';
+
+
 
 function Main(){
+
+    const con = useRef(null);
+    con.current.style.backgroundColor = "blue";
+    con.current.style.color = "white";
+
     return(
         <main className="main">
             <div className="container">
@@ -66,9 +74,22 @@ function Main(){
                                     <h5>Conclusion</h5>
                                 </div>
                             </div>
-                            <div>
-                                {/* **********************MAIN CONTENT******************** */}
+
+
+
+
+                            <div className="article">
+                                <h1 ref={con}>Hello World!</h1>
                             </div>
+
+
+
+
+
+
+
+
+
                             <div className="tags-name">
                                 <span className="tag-names">letslearntogether</span>
                                 <span className="tag-names">mern</span>
