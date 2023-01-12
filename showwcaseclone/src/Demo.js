@@ -7,7 +7,7 @@ import './Header.css';
 const community = communites.map(item=>{
     let communityName = item.name;
     // console.log(communityName);
-    console.log(communityName.length)
+    // console.log(communityName.length)
     let changedCommunityName ="";
 
     if (communityName.length>18){

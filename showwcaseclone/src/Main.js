@@ -1,13 +1,13 @@
 import "./Main.css";
-import {useRef} from 'react';
+// import {useRef} from 'react';
 
 
 
 function Main(){
 
-    const con = useRef(null);
-    con.current.style.backgroundColor = "blue";
-    con.current.style.color = "white";
+    // const con = useRef(null);
+    // con.current.style.backgroundColor = "blue";
+    // con.current.style.color = "white";
 
     return(
         <main className="main">
@@ -78,9 +78,9 @@ function Main(){
 
 
 
-                            <div className="article">
+                            {/* <div className="article">
                                 <h1 ref={con}>Hello World!</h1>
-                            </div>
+                            </div> */}
 
 
 
