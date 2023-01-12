@@ -170,8 +170,25 @@
 }
 
 .content .content-first-section .content-main .article{
-    height: 200vh;
+    height: 600vh;
     border: 2px solid orangered;
+}
+
+.content .content-first-section .content-main .article .article-para{
+    font-size: 18px;
+    line-height: 28px;
+    color: #d4d4d4;
+}
+
+.content .content-first-section .content-main .article .article-h2{
+    font-size: 31px;
+    line-height: 37px;
+    font-weight: 700;
+    color: white;
+}
+
+.content .content-first-section .content-main .article .article-img{
+    width: 100%;
 }
 
 

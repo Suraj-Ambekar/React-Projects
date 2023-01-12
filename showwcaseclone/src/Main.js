@@ -78,9 +78,24 @@ function Main(){
 
 
 
-                            {/* <div className="article">
-                                <h1 ref={con}>Hello World!</h1>
-                            </div> */}
+                            <div className="article">
+                                <p className="article-para">In this article, I'll teach you CSS Flexbox basics so you can make your own responsive sites. I'll explain how each of Flexbox's properties work, and I'll give you a cheatsheet that covers everything you can do with Flexbox. Let's Go 🎖️</p>
+                                <h2 className="article-h2">First, What is Flexbox?</h2>
+                                <img src="./articleImages/whatisflexbox.png" alt="what is flexbox" className="article-img" />
+                                <p className="article-para">When you're building a house, you need a blueprint. In the same way, we need a blueprint when we're making websites. And Flexbox is the blueprint.</p>
+                                {/* <p className="article-para"></p> */}
+                                <p className="article-para">The Flexbox model allows us to layout the content of our website. Not only that, it helps us create the structures needed for creating responsive websites for multiple devices.</p>
+                                <p className="article-para">Here's a demo of one project using Flexbox as the main blueprint.</p>
+                                <img src="./articleImages/projectDemo.jpg" alt="what is flexbox" className="article-img" />
+                                <h2 className="article-h2">Flexbox Architecture</h2>    
+                                <p className="article-para">So how does Flexbox architecture work? The flex-items [Contents] are distributed along the main axis and cross axis. And, depending on the flex-direction property, the layout position changes between rows and columns.</p>
+                                <img src="./articleImages/flexboxArchitecture.png" alt="what is flexbox" className="article-img" />
+                                <h2 className="article-h2">Flexbox Chart</h2>
+                                <p className="article-para">This chart contains every possible property and value you can use when you're working with Flexbox. You can reference it while doing your projects and experiment with different values.</p>
+                                <img src="./articleImages/flexboxChart.png" alt="what is flexbox" className="article-img" />
+                                <h2 className="article-h2">How to Set Up the Project</h2>
+                                <img src="./articleImages/letsCode.png" alt="" className="article-img" />
+                            </div>
 
 
 
