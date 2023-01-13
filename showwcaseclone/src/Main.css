@@ -209,6 +209,50 @@
 }
 
 
+.content .content-first-section .content-main .article .code-snippet{
+    color: white;
+    font-size: 0.8rem;
+    box-sizing: border-box;
+    background-color: #232426;
+    /* border: 1px solid gray; */
+    border-radius: 5px;
+    padding: 0.9rem;
+    
+}
+
+.content .content-first-section .content-main .article .code-snippet .snippet-fsection{
+    padding: 0 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
+    
+}
+
+.content .content-first-section .content-main .article .code-snippet .snippet-fsection .fdiv{
+    display: flex;
+    gap: 1.5rem;
+    cursor: pointer;
+}
+
+.content .content-first-section .content-main .article .code-snippet .snippet-fsection .fdiv div span{
+    margin-right: 0.2rem;
+}
+
+.content .content-first-section .content-main .article .code-snippet .snippet-fsection .sdiv{
+    display: flex;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.content .content-first-section .content-main .article .code-snippet .snippet-fsection .sdiv div span{
+    margin-right: 0.2rem;
+}
+
+.content .content-first-section .content-main .article .code-snippet .snippet-fsection .sdiv div .gray{
+    color: gray;
+}
+
 
 
 

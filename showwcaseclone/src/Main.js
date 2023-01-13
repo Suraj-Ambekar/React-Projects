@@ -104,13 +104,72 @@ function Main(){
                                 <h2 className="article-h2">HTML</h2>
                                 <p className="article-para">In HTML, write these lines of code inside the body tag 👇</p>
                                 <div className="code-snippet">
-
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
+                                        {/* <pre>
+                                            <code>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            </code>
+                                        </pre> */}
+                                    </div>
                                 </div>
                                 <h2 className="article-h2">CSS</h2>
                                 <p className="article-para">Target the <span className="code-bg">.container</span> class and all the boxes. Then style the boxes so that all of them look similar, like this: 👇</p>
                                 <p className="article-para"><span className="note">Note:</span> don't forget to put the height of the container.</p>
                                 <div className="code-snippet">
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
 
+                                    </div>
                                 </div>
                                 <h2 className="article-h2">But Wait.....</h2>
                                 <img src="./articleImages/wait.png" alt="" className="article-img" />
@@ -120,7 +179,33 @@ function Main(){
                                 <p className="article-para">Here, the <span className="code-bg">.container</span> class is the <span className="bold">parent</span> and our <span className="code-bg">.box-*</span> classes are our <span className="bold">children</span>.</p>
                                 <p className="article-para">So, apply the display: flex inside the <span className="code-bg">.container</span> class. And place the letters at the center of the box like this:</p>
                                 <div className="code-snippet">
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
 
+                                    </div>
                                 </div>
                                 <p className="article-para">And...we're all set! Let's start coding. 😊</p>
                                 <img src="./articleImages/coffee.png" alt="" className="article-img" />
@@ -131,7 +216,33 @@ function Main(){
                                 <p className="article-para">To recreate these results, let's write these lines in our CSS:</p>
                                 <p className="article-para"><span className="note">Please note</span> that we'll write them inside the <span className="code-bg">.container</span> class.</p>
                                 <div className="code-snippet">
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
 
+                                    </div>
                                 </div>
                                 <h2 className="article-h2">2. justify-content property</h2>
                                 <p className="article-para">This property arranges flex-items along the <span className="bold">MAIN AXIS</span> inside the flex-container.</p>
@@ -139,7 +250,33 @@ function Main(){
                                 <img src="./articleImages/jc1.png" alt="jc1" className="article-img" />
                                 <p className="article-para">To recreate these results, write these lines in your CSS:</p>
                                 <div className="code-snippet">
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
 
+                                    </div>
                                 </div>
                                 <h2 className="article-h2">3. align-content property</h2>
                                 <p className="article-para">This property arranges flex-items along the <span className="bold">CROSS AXIS</span> inside the flex-container. This is similar to <span className="bold">justify-content</span>.</p>
@@ -147,14 +284,66 @@ function Main(){
                                 <img src="./articleImages/ac1.png" alt="ac1" className="article-img" />
                                 <p className="article-para">Please note that without the <span className="bold">flex-wrap</span> property, this property doesn't work. Here's a demo:</p>
                                 <div className="code-snippet">
-                                    
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
+
+                                    </div>
                                 </div>
                                 <h2 className="article-h2">4. align-items property</h2>
                                 <p className="article-para">This property distributes Flex-items along the <span className="bold">Cross Axis.</span></p>
                                 <img src="./articleImages/ai.png" alt="ai" className="article-img" />
                                 <p className="article-para">To recreate these results, let's write the following code in CSS:</p>
                                 <div className="code-snippet">
-                                    
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
+
+                                    </div>
                                 </div>
                                 <h2 className="article-h2">5. align-self property</h2>
                                 <p className="article-para">This property works on the child classes. It positions the selected item along the <span className="bold">Cross Axis.</span></p>
@@ -168,7 +357,33 @@ function Main(){
                                 <p className="article-para">auto</p>
                                 <p className="article-para">To recreate the results, select any <span className="code-bg">.box-*</span> and write the following code:</p>
                                 <div className="code-snippet">
-                                    
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
+
+                                    </div>
                                 </div>
                                 <h2 className="article-h2">Take a Break</h2>
                                 <p className="article-para">So far so good. Take a break!</p>
@@ -183,13 +398,65 @@ function Main(){
                                 <p className="article-para">To achieve these results, follow me.</p>
                                 <p className="article-para"><span className="note">Please note</span> that flex-grow and flex-shrink work on child classes. So, we will target all our boxes like this:</p>
                                 <div className="code-snippet">
-                                    
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
+
+                                    </div>
                                 </div>
                                 <p className="article-para">Resize the window and you'll see the results.</p>
                                 <p className="article-para">To duplicate the result of flex-shrink, write the following code:</p>
                                 <p className="article-para"><span className="note">Please note</span> that you need to delete the flex-wrap property first, otherwise it won't work.</p>
                                 <div className="code-snippet">
-                                    
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
+
+                                    </div>
                                 </div>
                                 <p className="article-para">Now, resize the window and you'll see the results.</p>
                                 <h3 className="article-h3">flex-wrap</h3>
@@ -197,7 +464,33 @@ function Main(){
                                 <img src="./articleImages/fw.png" alt="fw" className="article-img" />
                                 <p className="article-para">This works on the .container parent class. So, write the following code:</p>
                                 <div className="code-snippet">
-                                    
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
+
+                                    </div>
                                 </div>
                                 <h3 className="article-h3">flex-basis</h3>
                                 <p className="article-para">This is similar to adding width to a flex-item, but only more flexible. flex-basis: 10em, for example, will set the initial size of a flex-item to 10em. Its final size will be based on the available space, flex-grow, and flex-shrink.</p>
@@ -209,7 +502,33 @@ function Main(){
                                 <p className="article-para">You can try this by writing the following code:</p>
                                 <p className="article-para"><span className="note">Please note</span> that it only works on the child classes:</p>
                                 <div className="code-snippet">
-                                    
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
+
+                                    </div>
                                 </div>
                                 <h3 className="article-h3">flex-flow</h3>
                                 <p className="article-para">This is the shorthand for the <span className="bold">flex-direction</span> and <span className="bold">flex-wrap</span> properties:</p>
@@ -217,7 +536,33 @@ function Main(){
                                 <p className="article-para">You can try this by writing the following code:</p>
                                 <p className="article-para"><span className="note">Please note</span> that it only works on the parent class.</p>
                                 <div className="code-snippet">
-                                    
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
+
+                                    </div>
                                 </div>
                                 <h3 className="article-h3">place-content</h3>
                                 <p className="article-para">This is the shorthand for the justify-content and align-content properties:</p>
@@ -225,7 +570,33 @@ function Main(){
                                 <p className="article-para">Let's duplicate the results:</p>
                                 <p className="article-para"><span className="note">Please note</span> that it works on the parent class.</p>
                                 <div className="code-snippet">
-                                    
+                                    <div className="snippet-fsection">
+                                        <div className="fdiv">
+                                            <i class="fa-sharp fa-solid fa-maximize"></i>
+                                            <div>
+                                                <span>Expand</span>
+                                                <i class="fa-solid fa-angle-down"></i>
+                                            </div>                                            
+                                        </div>
+                                        <div className="sdiv">
+                                            <div>
+                                                <span>Wrap</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div> 
+                                            <div>
+                                                <span>Lines</span>
+                                                <i class="fa-regular fa-square"></i>
+                                            </div>
+                                            <div>
+                                                <span>HTML</span>
+                                                <i class="fa-solid fa-angle-down gray"></i>
+                                            </div>
+                                            <i class="fa-regular fa-copy"></i>
+                                        </div>
+                                    </div>
+                                    <div className="snippet-ssection">
+
+                                    </div>
                                 </div>
                                 <h2 className="article-h2">More Resources</h2>
                                 <p className="article-para">If you want to <span className="bold">exercise</span> your Flexbox knowledge, you can read this article of mine where you'll be <span className="bold">building five responsive layouts using Flexbox</span>. Here's a demo:</p>
