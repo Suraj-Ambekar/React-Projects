@@ -189,6 +189,23 @@
 
 .content .content-first-section .content-main .article .article-img{
     width: 100%;
+    height: 300px;
+}
+
+.content .content-first-section .content-main .article .note{
+    font-weight: bold;
+    color: orangered;
+}
+
+.content .content-first-section .content-main .article .bold{
+    font-weight: bold;
+    color: green;
+}
+
+.content .content-first-section .content-main .article .code-bg{
+    padding: 0.3rem 0.5rem;
+    background-color: #d0d0d5;
+    color: black;
 }
 
 
