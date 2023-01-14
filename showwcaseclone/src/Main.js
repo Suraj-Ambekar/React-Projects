@@ -129,14 +129,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-                                        {/* <pre>
-                                            <code>
-                                            <div>
-                                                <span>HTML</span>
-                                                <i class="fa-solid fa-angle-down gray"></i>
-                                            </div>
-                                            </code>
-                                        </pre> */}
+                                        <img src="./articleImages/codesnippet/first.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <h2 className="article-h2">CSS</h2>
@@ -168,7 +161,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-
+                                        <img src="./articleImages/codesnippet/second.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <h2 className="article-h2">But Wait.....</h2>
@@ -204,7 +197,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-
+                                        <img src="./articleImages/codesnippet/third.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <p className="article-para">And...we're all set! Let's start coding. 😊</p>
@@ -241,7 +234,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-
+                                        <img src="./articleImages/codesnippet/fourth.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <h2 className="article-h2">2. justify-content property</h2>
@@ -275,7 +268,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-
+                                        <img src="./articleImages/codesnippet/fifth.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <h2 className="article-h2">3. align-content property</h2>
@@ -309,7 +302,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-
+                                        <img src="./articleImages/codesnippet/sixth.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <h2 className="article-h2">4. align-items property</h2>
@@ -342,7 +335,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-
+                                        <img src="./articleImages/codesnippet/seventh.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <h2 className="article-h2">5. align-self property</h2>
@@ -382,7 +375,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-
+                                        <img src="./articleImages/codesnippet/eighth.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <h2 className="article-h2">Take a Break</h2>
@@ -423,7 +416,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-
+                                        <img src="./articleImages/codesnippet/ninth.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <p className="article-para">Resize the window and you'll see the results.</p>
@@ -455,7 +448,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-
+                                        <img src="./articleImages/codesnippet/tenth.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <p className="article-para">Now, resize the window and you'll see the results.</p>
@@ -489,7 +482,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-
+                                        <img src="./articleImages/codesnippet/eleven.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <h3 className="article-h3">flex-basis</h3>
@@ -527,7 +520,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-
+                                        <img src="./articleImages/codesnippet/twelve.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <h3 className="article-h3">flex-flow</h3>
@@ -561,7 +554,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-
+                                        <img src="./articleImages/codesnippet/fourthteen.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <h3 className="article-h3">place-content</h3>
@@ -595,7 +588,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-
+                                        <img src="./articleImages/codesnippet/fifthteen.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
                                 <h2 className="article-h2">More Resources</h2>
