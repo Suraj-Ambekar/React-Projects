@@ -185,6 +185,7 @@
     line-height: 37px;
     font-weight: 700;
     color: white;
+    text-shadow: 1px 1px 2px darkorchid;
 }
 
 .content .content-first-section .content-main .article h3{
@@ -265,7 +266,7 @@
 }
 
 .content .content-first-section .content-main .article .code-snippet .snippet-ssection img{
-    /* height: 6rem; */
+    height: 6rem;
 }
 
 

@@ -65,12 +65,28 @@ function Main(){
                             <div className="table-of-content">
                                 <h3>Table of Contents</h3>
                                 <div>
-                                    <h5>Introduction to CSS Flexbox</h5>
-                                    <h5>1. Set the viewport</h5>
-                                    <h5>2. Set appropriate breakpoints on you website</h5>
-                                    <h5>3. Use Fluid Grid</h5>
-                                    <h5>4. Tak touch screen into consideration</h5>
-                                    <h5>5. Define typography</h5>
+                                    <h5>First, What is Flexbox?</h5>
+                                    <h5>Flexbox Architecture</h5>
+                                    <h5>Flexbox Chart</h5>
+                                    <h5>How to Set Up the Project</h5>
+                                    {/* <h5>a. HTML</h5>
+                                    <h5>b. CSS</h5> */}
+                                    <h5>But Wait.....</h5>
+                                    <h5>1. flex-direction property</h5>
+                                    <h5>2. justify-content property</h5>
+                                    <h5>3. align-content property</h5>
+                                    <h5>4. align-items property</h5>
+                                    <h5>5. align-self property</h5>
+                                    <h5>6. flex - grow | shrink | wrap | basis properties</h5>
+                                    {/* <h5>a. flex-grow</h5>
+                                    <h5>b. flex-shrink</h5>
+                                    <h5>c. flex-wrap</h5>
+                                    <h5>d. flex-basis</h5> */}
+                                    <h5>Shorthand Flexbox Properties</h5>
+                                    {/* <h5>a. flex shorthand</h5>
+                                    <h5>b. flex-flow</h5>
+                                    <h5>c. place-content</h5> */}
+                                    <h5>More Resources</h5>
                                     <h5>Conclusion</h5>
                                 </div>
                             </div>
@@ -101,7 +117,7 @@ function Main(){
                                 <p className="article-para">3. Install Live Server and run it.</p>
                                 <p className="article-para">Or, you can just open Codepen and start coding.</p>
                                 <p className="article-para">At the end of this tutorial, you will be able to make accurate and beautiful website layouts.</p>
-                                <h2 className="article-h2">HTML</h2>
+                                <h2 className="article-h2">a. HTML</h2>
                                 <p className="article-para">In HTML, write these lines of code inside the body tag 👇</p>
                                 <div className="code-snippet">
                                     <div className="snippet-fsection">
@@ -132,7 +148,7 @@ function Main(){
                                         <img src="./articleImages/codesnippet/first.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
-                                <h2 className="article-h2">CSS</h2>
+                                <h2 className="article-h2">b. CSS</h2>
                                 <p className="article-para">Target the <span className="code-bg">.container</span> class and all the boxes. Then style the boxes so that all of them look similar, like this: 👇</p>
                                 <p className="article-para"><span className="note">Note:</span> don't forget to put the height of the container.</p>
                                 <div className="code-snippet">
@@ -383,9 +399,9 @@ function Main(){
                                 <img src="./articleImages/brk.png" alt="brk" className="article-img" />
                                 <h2 className="article-h2">6. flex - grow | shrink | wrap | basis properties</h2>
                                 <p className="article-para">The properties we'll discuss now will work when we resize the window. Let's dive right in.</p>
-                                <h3 className="article-h3">flex grow</h3>
+                                <h3 className="article-h3">a. flex grow</h3>
                                 <p className="article-para">This property grows the size of a flex-item based on the width of the flex-container.</p>
-                                <h3 className="article-h3">flex-shrink</h3>
+                                <h3 className="article-h3">b. flex-shrink</h3>
                                 <p className="article-para">This property helps a flex item shrink based on the width of the flex-container. It's the opposite of flex-grow.</p>
                                 <img src="./articleImages/fgs.png" alt="fgs" className="article-img" />
                                 <p className="article-para">To achieve these results, follow me.</p>
@@ -452,7 +468,7 @@ function Main(){
                                     </div>
                                 </div>
                                 <p className="article-para">Now, resize the window and you'll see the results.</p>
-                                <h3 className="article-h3">flex-wrap</h3>
+                                <h3 className="article-h3">c. flex-wrap</h3>
                                 <p className="article-para">This property helps you set the number of flex-items you want in a line or row.</p>
                                 <img src="./articleImages/fw.png" alt="fw" className="article-img" />
                                 <p className="article-para">This works on the .container parent class. So, write the following code:</p>
@@ -485,7 +501,7 @@ function Main(){
                                         <img src="./articleImages/codesnippet/eleven.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
-                                <h3 className="article-h3">flex-basis</h3>
+                                <h3 className="article-h3">d. flex-basis</h3>
                                 <p className="article-para">This is similar to adding width to a flex-item, but only more flexible. flex-basis: 10em, for example, will set the initial size of a flex-item to 10em. Its final size will be based on the available space, flex-grow, and flex-shrink.</p>
                                 <h2 className="article-h2">7. Shorthand Flexbox Properties</h2>
                                 <p className="article-para">Time to Investigate Flexbox Shorthands</p>
@@ -523,7 +539,7 @@ function Main(){
                                         <img src="./articleImages/codesnippet/twelve.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
-                                <h3 className="article-h3">flex-flow</h3>
+                                <h3 className="article-h3">a. flex-flow</h3>
                                 <p className="article-para">This is the shorthand for the <span className="bold">flex-direction</span> and <span className="bold">flex-wrap</span> properties:</p>
                                 <img src="./articleImages/ff.png" alt="ff" className="article-img" />              
                                 <p className="article-para">You can try this by writing the following code:</p>
@@ -557,7 +573,7 @@ function Main(){
                                         <img src="./articleImages/codesnippet/fourthteen.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
-                                <h3 className="article-h3">place-content</h3>
+                                <h3 className="article-h3">b. place-content</h3>
                                 <p className="article-para">This is the shorthand for the justify-content and align-content properties:</p>
                                 <img src="./articleImages/pc.png" alt="pc" className="article-img" />              
                                 <p className="article-para">Let's duplicate the results:</p>
