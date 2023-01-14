@@ -62,6 +62,23 @@ function Main(){
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="interactive-mode">
+                                <div className="interactive-code">
+                                    <div className="codes"></div>
+                                    <div className="codes"></div>
+                                    <div className="codes"></div>
+                                </div>
+                                <div className="interactive-op">
+                                    <div className="opbox">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
                             <div className="table-of-content">
                                 <h3>Table of Contents</h3>
                                 <div>
@@ -90,9 +107,6 @@ function Main(){
                                     <h5>Conclusion</h5>
                                 </div>
                             </div>
-
-
-
 
                             <div className="article">
                                 <p className="article-para">In this article, I'll teach you CSS Flexbox basics so you can make your own responsive sites. I'll explain how each of Flexbox's properties work, and I'll give you a cheatsheet that covers everything you can do with Flexbox. Let's Go 🎖️</p>
@@ -177,7 +191,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-                                        <img src="./articleImages/codesnippet/second.jpg" alt="" className="snippet-img" />
+                                        <img src="./articleImages/codesnippet/seconds.jpg" alt="" className="snippet-img sec" />
                                     </div>
                                 </div>
                                 <h2 className="article-h2">But Wait.....</h2>
@@ -213,7 +227,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-                                        <img src="./articleImages/codesnippet/third.jpg" alt="" className="snippet-img" />
+                                        <img src="./articleImages/codesnippet/third.jpg" alt="" className="snippet-img thi" />
                                     </div>
                                 </div>
                                 <p className="article-para">And...we're all set! Let's start coding. 😊</p>
@@ -432,7 +446,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-                                        <img src="./articleImages/codesnippet/ninth.jpg" alt="" className="snippet-img" />
+                                        <img src="./articleImages/codesnippet/ninth.jpg" alt="" className="snippet-img nin" />
                                     </div>
                                 </div>
                                 <p className="article-para">Resize the window and you'll see the results.</p>
@@ -464,7 +478,7 @@ function Main(){
                                         </div>
                                     </div>
                                     <div className="snippet-ssection">
-                                        <img src="./articleImages/codesnippet/tenth.jpg" alt="" className="snippet-img" />
+                                        <img src="./articleImages/codesnippet/tenth.jpg" alt="" className="snippet-img ten" />
                                     </div>
                                 </div>
                                 <p className="article-para">Now, resize the window and you'll see the results.</p>
