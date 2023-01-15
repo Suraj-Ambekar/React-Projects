@@ -1,18 +1,139 @@
 .interactive-mode{
-    border: 2px solid blue;
+    border: 2px solid gray;
+    border-radius: 5px;
     height: 400px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "h h"
+    "c o"
+    "c o";
+    /* grid-template-columns: repeat(2, 1fr);
+    gap: 1rem; */
+    /* background-color: #eee; */
 }
 
+.interactive-heading{
+    /* border: 2px solid red; */
+    text-align: center;
+    grid-area: h;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    color: white;
+}
+.interactive-heading .heading{
+    margin: 0;
+}
+.interactive-heading .reset-btn{
+    width: 60px;
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.interactive-heading .reset-btn:hover{
+    background-color: rgba(0, 0, 0, 0.718);
+    /* padding: 0.5rem 0.9rem; */
+}
+
+
 .interactive-code{
+    border: 1px solid gray;
+    border-bottom: 0px;
+    grid-area: c;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.interactive-code .codes {
+    height: 2rem;
+    width: 85%;
+    background-color: #fff;
+    padding-left: 1rem;
+    font-size: 1rem;
+    border: 0.2rem solid #ccc;
+    border-left-width: 0.4rem;
+    color: #111;
+    outline: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: border 0.2s;
+    position: relative;
+}
+  
+.interactive-code .codes:hover {
+    border: 0.2rem solid #aaa;
+    border-left-width: 0.4rem;
+}
+  
+.interactive-code .codes:focus {
+    border: 0.2rem solid #3e8ae0;
+    border-left-width: 0.4rem;
+}
+  
+.interactive-code .codes::before {
+    content: "";
+    position: absolute;
+    right: -2rem;
+    border-left: 0.8rem solid #3e8ae0;
+    border-right: 0.8rem solid transparent;
+    border-bottom: 0.8rem solid transparent;
+    border-top: 0.8rem solid transparent;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s;
+}
+  
+.interactive-code .codes:focus::before {
+    transform: scaleX(1);
+}
+
+
+.interactive-op{
+    border: 1px solid gray;
+    border-bottom: 0px;
+    grid-area: o;
+    padding: 2rem 2rem;
+}
+
+.interactive-op .codes-op{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    display: flex;
+}
+
+.interactive-op .codes-op .flex{
+    height: 30px;
+    width: 30px;
+    border: 2px solid black;
+    background-color: rgb(4, 255, 4);
+    color: black;
+    font-weight: 700;
+    display: grid;
+    place-content: center;
+}
+
+.interactive-op .codes-op .flex:hover{
+    color: white;
+    border: 2px solid black;
+}
+
+
+/* .interactive-code{
     border: 2px solid green;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* align-items: space-between; */
 }
 
 .interactive-code .codes{
@@ -30,7 +151,7 @@
 .interactive-op .opbox{
     border: 4px solid pink;
     padding: 5rem 2rem;
-}
+} */
 
 
 

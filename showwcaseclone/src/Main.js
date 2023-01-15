@@ -1,11 +1,37 @@
 import "./Main.css";
-// import {useRef} from 'react';
+import {useRef} from 'react';
+
 
 
 
 function Main(){
 
-    // const con = useRef(null);
+
+    const codesRef = useRef([]);
+    const flexRef = useRef([]);
+    function handleClick() {
+        codesRef.current.forEach(input => input.style.color = "pink");
+    }
+
+    // inputs.forEach((input) => {
+    //     input.addEventListener("focus", () => {
+    //       star.style.cssText = input.textContent;
+    //     });
+      
+    //     input.addEventListener("input", () => {
+    //       star.style.cssText = input.textContent;
+    //     });
+    //   });
+
+    // function handleClick() {
+    //     codes.current.forEach(element => {
+    //     //   element.current.style.color = "green";
+    //     element.focus();
+    //     });
+    // }
+    
+
+    // codes.current.style.color = "pink";
     // con.current.style.backgroundColor = "blue";
     // con.current.style.color = "white";
 
@@ -63,15 +89,35 @@ function Main(){
                                 </div>
                             </div>
 
+
+
+
+
                             <div className="interactive-mode">
+                                <div className="interactive-heading">
+                                    <h3 className="heading">CSS Demo: background-position</h3>
+                                    <button type="button" className="reset-btn">RESET</button>
+                                </div>
                                 <div className="interactive-code">
-                                    <div className="codes"></div>
-                                    <div className="codes"></div>
-                                    <div className="codes"></div>
+                                    <code className="codes" ref={el => codesRef.current.push(el)} contenteditable="true">
+                                        flex-direction: row;
+                                    </code>
+                                    <code className="codes" ref={el => codesRef.current.push(el)} contenteditable="true">
+                                        flex-direction: row-reverse;
+                                    </code>
+                                    <code className="codes" ref={el => codesRef.current.push(el)} contenteditable="true">
+                                        flex-direction: column;
+                                    </code>
+                                    <code className="codes" ref={el => codesRef.current.push(el)} contenteditable="true">
+                                        flex-direction: column-reverse;
+                                    </code>
                                 </div>
                                 <div className="interactive-op">
-                                    <div className="opbox">
-                                        
+                                    <div className="codes-op" ref={flexRef}>
+                                        <div className="flex" onClick={handleClick}>1</div>
+                                        <div className="flex">2</div>
+                                        <div className="flex">3</div>
+                                        <div className="flex">4</div>
                                     </div>
                                 </div>
                             </div>
