@@ -1,13 +1,13 @@
 import "./Main.css";
-import { useRef, useState,useEffect } from 'react';
+import { useRef,useEffect } from 'react';
 
 export function Inputs() {
     const inputsRef = useRef(null);
     const starRef = useRef(null);
-    const [defaultValues, setDefaultValues] = useState();
-    const [defaultValuess, setDefaultValuess] = useState();
-    const [defaultValuesss, setDefaultValuesss] = useState();
-    const [defaultValuessss, setDefaultValuessss] = useState();
+    // //const [defaultValues, setDefaultValues] = useState();
+    // //const [defaultValuess, setDefaultValuess] = useState();
+    // //const [defaultValuesss, setDefaultValuesss] = useState();
+    // //const [defaultValuessss, setDefaultValuessss] = useState();
 
     useEffect(() => {
         console.log(inputsRef.current.innerHTML);
@@ -22,10 +22,10 @@ export function Inputs() {
     }
   
     const handleReset = () => {
-        setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        setDefaultValuess((prev)=> prev);
-        setDefaultValuesss((prev)=> prev);
-        setDefaultValuessss((prev)=> prev);
+    //     //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+    //     //setDefaultValuess((prev)=> prev);
+    //     //setDefaultValuesss((prev)=> prev);
+    //     //setDefaultValuessss((prev)=> prev);
     }
 
     return (
@@ -36,16 +36,16 @@ export function Inputs() {
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValues} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     flex-direction: row;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     flex-direction: row-reverse;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuesss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     flex-direction: column;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuessss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     flex-direction: column-reverse;
                 </code>
             </div>
@@ -66,10 +66,10 @@ export function Inputs() {
 export function Justifycontent(){
     const inputsRef = useRef(null);
     const starRef = useRef(null);
-    const [defaultValues, setDefaultValues] = useState();
-    const [defaultValuess, setDefaultValuess] = useState();
-    const [defaultValuesss, setDefaultValuesss] = useState();
-    const [defaultValuessss, setDefaultValuessss] = useState();
+    // //const [defaultValues, setDefaultValues] = useState();
+    // //const [defaultValuess, setDefaultValuess] = useState();
+    // //const [defaultValuesss, setDefaultValuesss] = useState();
+    // //const [defaultValuessss, setDefaultValuessss] = useState();
 
     useEffect(() => {
         console.log(inputsRef.current.innerHTML);
@@ -84,10 +84,10 @@ export function Justifycontent(){
     }
   
     const handleReset = () => {
-        setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        setDefaultValuess((prev)=> prev);
-        setDefaultValuesss((prev)=> prev);
-        setDefaultValuessss((prev)=> prev);
+        // //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+        // //setDefaultValuess((prev)=> prev);
+        // //setDefaultValuesss((prev)=> prev);
+        // //setDefaultValuessss((prev)=> prev);
     }
 
     return(
@@ -97,22 +97,22 @@ export function Justifycontent(){
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValues} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     justify-content: flex-start;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     justify-content: flex-end;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuesss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     justify-content: center;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuessss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     justify-content: space-between;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuesss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     justify-content: space-around;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuessss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     justify-content: space-evenly;
                 </code>
             </div>
@@ -133,10 +133,10 @@ export function Justifycontent(){
 export function Aligncontent(){
     const inputsRef = useRef(null);
     const starRef = useRef(null);
-    const [defaultValues, setDefaultValues] = useState();
-    const [defaultValuess, setDefaultValuess] = useState();
-    const [defaultValuesss, setDefaultValuesss] = useState();
-    const [defaultValuessss, setDefaultValuessss] = useState();
+    // //const [defaultValues, setDefaultValues] = useState();
+    // //const [defaultValuess, setDefaultValuess] = useState();
+    // //const [defaultValuesss, setDefaultValuesss] = useState();
+    // //const [defaultValuessss, setDefaultValuessss] = useState();
 
     useEffect(() => {
         console.log(inputsRef.current.innerHTML);
@@ -151,10 +151,10 @@ export function Aligncontent(){
     }
   
     const handleReset = () => {
-        setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        setDefaultValuess((prev)=> prev);
-        setDefaultValuesss((prev)=> prev);
-        setDefaultValuessss((prev)=> prev);
+        // //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+        // //setDefaultValuess((prev)=> prev);
+        // //setDefaultValuesss((prev)=> prev);
+        // //setDefaultValuessss((prev)=> prev);
     }
 
     return(
@@ -164,22 +164,22 @@ export function Aligncontent(){
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValues} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     align-content: flex-start;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     align-content: flex-end;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuesss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     align-content: center;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuessss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     align-content: space-between;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuesss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}   contenteditable="true">
                     align-content: space-around;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuessss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}      contenteditable="true">
                     align-content: space-evenly;
                 </code>
             </div>
@@ -207,10 +207,10 @@ export function Aligncontent(){
 export function Alignitems(){
     const inputsRef = useRef(null);
     const starRef = useRef(null);
-    const [defaultValues, setDefaultValues] = useState();
-    const [defaultValuess, setDefaultValuess] = useState();
-    const [defaultValuesss, setDefaultValuesss] = useState();
-    const [defaultValuessss, setDefaultValuessss] = useState();
+    //const [defaultValues, setDefaultValues] = useState();
+    //const [defaultValuess, setDefaultValuess] = useState();
+    //const [defaultValuesss, setDefaultValuesss] = useState();
+    //const [defaultValuessss, setDefaultValuessss] = useState();
 
     useEffect(() => {
         console.log(inputsRef.current.innerHTML);
@@ -225,10 +225,10 @@ export function Alignitems(){
     }
   
     const handleReset = () => {
-        setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        setDefaultValuess((prev)=> prev);
-        setDefaultValuesss((prev)=> prev);
-        setDefaultValuessss((prev)=> prev);
+        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+        //setDefaultValuess((prev)=> prev);
+        //setDefaultValuesss((prev)=> prev);
+        //setDefaultValuessss((prev)=> prev);
     }
 
     return(
@@ -238,22 +238,22 @@ export function Alignitems(){
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValues} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
                     align-items: flex-start;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     align-items: flex-end;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuesss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}   contenteditable="true">
                     align-items: center;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuessss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}      contenteditable="true">
                     align-items: stretch;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuesss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}   contenteditable="true">
                     align-items: baseline;
                 </code>
-                {/* <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuessss} contenteditable="true">
+                {/* <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}      contenteditable="true">
                     justify-content: space-evenly;
                 </code> */}
             </div>
@@ -274,10 +274,10 @@ export function Alignitems(){
 export function Alignself(){
     const inputsRef = useRef(null);
     const starRef = useRef(null);
-    const [defaultValues, setDefaultValues] = useState();
-    const [defaultValuess, setDefaultValuess] = useState();
-    const [defaultValuesss, setDefaultValuesss] = useState();
-    const [defaultValuessss, setDefaultValuessss] = useState();
+    //const [defaultValues, setDefaultValues] = useState();
+    //const [defaultValuess, setDefaultValuess] = useState();
+    //const [defaultValuesss, setDefaultValuesss] = useState();
+    //const [defaultValuessss, setDefaultValuessss] = useState();
 
     useEffect(() => {
         console.log(inputsRef.current.innerHTML);
@@ -292,10 +292,10 @@ export function Alignself(){
     }
   
     const handleReset = () => {
-        setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        setDefaultValuess((prev)=> prev);
-        setDefaultValuesss((prev)=> prev);
-        setDefaultValuessss((prev)=> prev);
+        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+        //setDefaultValuess((prev)=> prev);
+        //setDefaultValuesss((prev)=> prev);
+        //setDefaultValuessss((prev)=> prev);
     }
 
     return(
@@ -305,22 +305,22 @@ export function Alignself(){
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValues} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
                     align-self: flex-start;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     align-self: flex-end;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuesss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}   contenteditable="true">
                     align-self: center;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuessss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}      contenteditable="true">
                     align-self: stretch;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuesss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}   contenteditable="true">
                     align-self: baseline;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuessss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}      contenteditable="true">
                     align-self: auto;
                 </code>
             </div>
@@ -340,10 +340,10 @@ export function Alignself(){
 export function Flexgrow(){
     const inputsRef = useRef(null);
     const starRef = useRef(null);
-    const [defaultValues, setDefaultValues] = useState();
-    const [defaultValuess, setDefaultValuess] = useState();
-    const [defaultValuesss, setDefaultValuesss] = useState();
-    const [defaultValuessss, setDefaultValuessss] = useState();
+    //const [defaultValues, setDefaultValues] = useState();
+    //const [defaultValuess, setDefaultValuess] = useState();
+    //const [defaultValuesss, setDefaultValuesss] = useState();
+    //const [defaultValuessss, setDefaultValuessss] = useState();
 
     useEffect(() => {
         console.log(inputsRef.current.innerHTML);
@@ -358,10 +358,10 @@ export function Flexgrow(){
     }
   
     const handleReset = () => {
-        setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        setDefaultValuess((prev)=> prev);
-        setDefaultValuesss((prev)=> prev);
-        setDefaultValuessss((prev)=> prev);
+        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+        //setDefaultValuess((prev)=> prev);
+        //setDefaultValuesss((prev)=> prev);
+        //setDefaultValuessss((prev)=> prev);
     }
 
     return(
@@ -371,22 +371,22 @@ export function Flexgrow(){
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code fg">
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValues} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
                     flex-grow: 1;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     flex-grow: 0;
                 </code>
-                {/* <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuesss} contenteditable="true">
+                {/* <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}   contenteditable="true">
                     flex-grow: 1;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuessss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}      contenteditable="true">
                     flex-grow: 4;
                 </code> */}
-                {/* <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuesss} contenteditable="true">
+                {/* <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}   contenteditable="true">
                     align-self: baseline;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuessss} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}      contenteditable="true">
                     align-self: auto;
                 </code> */}
             </div>
@@ -406,10 +406,10 @@ export function Flexgrow(){
 export function Flexshrink(){
     const inputsRef = useRef(null);
     const starRef = useRef(null);
-    const [defaultValues, setDefaultValues] = useState();
-    const [defaultValuess, setDefaultValuess] = useState();
-    const [defaultValuesss, setDefaultValuesss] = useState();
-    const [defaultValuessss, setDefaultValuessss] = useState();
+    //const [defaultValues, setDefaultValues] = useState();
+    //const [defaultValuess, setDefaultValuess] = useState();
+    //const [defaultValuesss, setDefaultValuesss] = useState();
+    //const [defaultValuessss, setDefaultValuessss] = useState();
 
     useEffect(() => {
         console.log(inputsRef.current.innerHTML);
@@ -424,10 +424,10 @@ export function Flexshrink(){
     }
   
     const handleReset = () => {
-        setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        setDefaultValuess((prev)=> prev);
-        setDefaultValuesss((prev)=> prev);
-        setDefaultValuessss((prev)=> prev);
+        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+        //setDefaultValuess((prev)=> prev);
+        //setDefaultValuesss((prev)=> prev);
+        //setDefaultValuessss((prev)=> prev);
     }
 
     return(
@@ -437,10 +437,10 @@ export function Flexshrink(){
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code fg">
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValues} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
                     flex-shrink: 1;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     flex-shrink: 0;
                 </code>
             </div>
@@ -460,10 +460,10 @@ export function Flexshrink(){
 export function Flexwrap(){
     const inputsRef = useRef(null);
     const starRef = useRef(null);
-    const [defaultValues, setDefaultValues] = useState();
-    const [defaultValuess, setDefaultValuess] = useState();
-    const [defaultValuesss, setDefaultValuesss] = useState();
-    const [defaultValuessss, setDefaultValuessss] = useState();
+    //const [defaultValues, setDefaultValues] = useState();
+    //const [defaultValuess, setDefaultValuess] = useState();
+    //const [defaultValuesss, setDefaultValuesss] = useState();
+    //const [defaultValuessss, setDefaultValuessss] = useState();
 
     useEffect(() => {
         console.log(inputsRef.current.innerHTML);
@@ -478,10 +478,10 @@ export function Flexwrap(){
     }
   
     const handleReset = () => {
-        setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        setDefaultValuess((prev)=> prev);
-        setDefaultValuesss((prev)=> prev);
-        setDefaultValuessss((prev)=> prev);
+        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+        //setDefaultValuess((prev)=> prev);
+        //setDefaultValuesss((prev)=> prev);
+        //setDefaultValuessss((prev)=> prev);
     }
 
     return(
@@ -491,13 +491,13 @@ export function Flexwrap(){
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValues} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
                     flex-wrap: no-wrap;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     flex-wrap: wrap;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     flex-wrap: wrap-reverse;
                 </code>
             </div>
@@ -524,10 +524,10 @@ export function Flexwrap(){
 export function Flexbasis(){
     const inputsRef = useRef(null);
     const starRef = useRef(null);
-    const [defaultValues, setDefaultValues] = useState();
-    const [defaultValuess, setDefaultValuess] = useState();
-    const [defaultValuesss, setDefaultValuesss] = useState();
-    const [defaultValuessss, setDefaultValuessss] = useState();
+    //const [defaultValues, setDefaultValues] = useState();
+    //const [defaultValuess, setDefaultValuess] = useState();
+    //const [defaultValuesss, setDefaultValuesss] = useState();
+    //const [defaultValuessss, setDefaultValuessss] = useState();
 
     useEffect(() => {
         console.log(inputsRef.current.innerHTML);
@@ -542,10 +542,10 @@ export function Flexbasis(){
     }
   
     const handleReset = () => {
-        setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        setDefaultValuess((prev)=> prev);
-        setDefaultValuesss((prev)=> prev);
-        setDefaultValuessss((prev)=> prev);
+        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+        //setDefaultValuess((prev)=> prev);
+        //setDefaultValuesss((prev)=> prev);
+        //setDefaultValuessss((prev)=> prev);
     }
 
     return(
@@ -555,13 +555,13 @@ export function Flexbasis(){
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code fg">
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValues} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
                     flex-basis: 0;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     flex-basis: auto;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     flex-basis: 200px;
                 </code>
             </div>
@@ -581,10 +581,10 @@ export function Flexbasis(){
 export function Flex(){
     const inputsRef = useRef(null);
     const starRef = useRef(null);
-    const [defaultValues, setDefaultValues] = useState();
-    const [defaultValuess, setDefaultValuess] = useState();
-    const [defaultValuesss, setDefaultValuesss] = useState();
-    const [defaultValuessss, setDefaultValuessss] = useState();
+    //const [defaultValues, setDefaultValues] = useState();
+    //const [defaultValuess, setDefaultValuess] = useState();
+    //const [defaultValuesss, setDefaultValuesss] = useState();
+    //const [defaultValuessss, setDefaultValuessss] = useState();
 
     useEffect(() => {
         console.log(inputsRef.current.innerHTML);
@@ -599,10 +599,10 @@ export function Flex(){
     }
   
     const handleReset = () => {
-        setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        setDefaultValuess((prev)=> prev);
-        setDefaultValuesss((prev)=> prev);
-        setDefaultValuessss((prev)=> prev);
+        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+        //setDefaultValuess((prev)=> prev);
+        //setDefaultValuesss((prev)=> prev);
+        //setDefaultValuessss((prev)=> prev);
     }
 
     return(
@@ -612,16 +612,16 @@ export function Flex(){
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValues} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
                     flex: 1;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     flex: 2;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     flex: 1 30px;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     flex: 1 1 100px;
                 </code>
             </div>
@@ -641,10 +641,10 @@ export function Flex(){
 export function Flexflow(){
     const inputsRef = useRef(null);
     const starRef = useRef(null);
-    const [defaultValues, setDefaultValues] = useState();
-    const [defaultValuess, setDefaultValuess] = useState();
-    const [defaultValuesss, setDefaultValuesss] = useState();
-    const [defaultValuessss, setDefaultValuessss] = useState();
+    //const [defaultValues, setDefaultValues] = useState();
+    //const [defaultValuess, setDefaultValuess] = useState();
+    //const [defaultValuesss, setDefaultValuesss] = useState();
+    //const [defaultValuessss, setDefaultValuessss] = useState();
 
     useEffect(() => {
         console.log(inputsRef.current.innerHTML);
@@ -659,10 +659,10 @@ export function Flexflow(){
     }
   
     const handleReset = () => {
-        setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        setDefaultValuess((prev)=> prev);
-        setDefaultValuesss((prev)=> prev);
-        setDefaultValuessss((prev)=> prev);
+        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+        //setDefaultValuess((prev)=> prev);
+        //setDefaultValuesss((prev)=> prev);
+        //setDefaultValuessss((prev)=> prev);
     }
 
     return(
@@ -672,16 +672,16 @@ export function Flexflow(){
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValues} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
                     flex-flow: row wrap;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     flex-flow: row-reverse nowrap;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     flex-flow: column wrap;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}     contenteditable="true">
                     flex-flow: column wrap-reverse;
                 </code>
             </div>
@@ -705,10 +705,10 @@ export function Flexflow(){
 export function Placecontent(){
     const inputsRef = useRef(null);
     const starRef = useRef(null);
-    const [defaultValues, setDefaultValues] = useState();
-    const [defaultValuess, setDefaultValuess] = useState();
-    const [defaultValuesss, setDefaultValuesss] = useState();
-    const [defaultValuessss, setDefaultValuessss] = useState();
+    // //const [defaultValues, setDefaultValues] = useState();
+    // //const [defaultValuess, setDefaultValuess] = useState();
+    // //const [defaultValuesss, setDefaultValuesss] = useState();
+    // //const [defaultValuessss, setDefaultValuessss] = useState();
 
     useEffect(() => {
         console.log(inputsRef.current.innerHTML);
@@ -723,10 +723,10 @@ export function Placecontent(){
     }
   
     const handleReset = () => {
-        setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        setDefaultValuess((prev)=> prev);
-        setDefaultValuesss((prev)=> prev);
-        setDefaultValuessss((prev)=> prev);
+        // //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+        // //setDefaultValuess((prev)=> prev);
+        // //setDefaultValuesss((prev)=> prev);
+        // //setDefaultValuessss((prev)=> prev);
     }
 
     return(
@@ -736,19 +736,19 @@ export function Placecontent(){
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValues} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     place-content: end space-between;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     place-content: space-around start;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     place-content: start space-evenly;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="inpu" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     place-content: end center;
                 </code>
-                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} value={defaultValuess} contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     place-content: end;
                 </code>
             </div>
