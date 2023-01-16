@@ -1,5 +1,5 @@
 import "./Main.css";
-import {useRef} from 'react';
+import { Inputs, Justifycontent, Aligncontent, Alignitems, Alignself, Flexgrow, Flexshrink, Flexwrap, Flexbasis, Flex, Flexflow, Placecontent} from "./Inputs";
 
 
 
@@ -7,11 +7,12 @@ import {useRef} from 'react';
 function Main(){
 
 
-    const codesRef = useRef([]);
-    const flexRef = useRef([]);
-    function handleClick() {
-        codesRef.current.forEach(input => input.style.color = "pink");
-    }
+
+    // const codesRef = useRef([]);
+    // const flexRef = useRef([]);
+    // function handleClick() {
+    //     codesRef.current.forEach(input => input.style.color = "pink");
+    // }
 
     // inputs.forEach((input) => {
     //     input.addEventListener("focus", () => {
@@ -93,7 +94,7 @@ function Main(){
 
 
 
-                            <div className="interactive-mode">
+                            {/* <div className="interactive-mode">
                                 <div className="interactive-heading">
                                     <h3 className="heading">CSS Demo: background-position</h3>
                                     <button type="button" className="reset-btn">RESET</button>
@@ -120,7 +121,35 @@ function Main(){
                                         <div className="flex">4</div>
                                     </div>
                                 </div>
-                            </div>
+                                <div className="interactive-heading">
+                                    <h3 className="heading">CSS Demo: background-position</h3>
+                                    <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
+                                </div>
+                                <div className="interactive-code">
+                                    <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} contenteditable="true">
+                                        flex-direction: row;
+                                    </code>
+                                    <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} contenteditable="true">
+                                        flex-direction: row-reverse;
+                                    </code>
+                                    <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} contenteditable="true">
+                                        flex-direction: column;
+                                    </code>
+                                    <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput} contenteditable="true">
+                                        flex-direction: column-reverse;
+                                    </code>
+                                </div>
+                                <div className="interactive-op">
+                                    <div className="codes-op" ref={starRef}>
+                                        <div className="flex" onClick={handleClick}>1</div>
+                                        <div className="flex">2</div>
+                                        <div className="flex">3</div>
+                                        <div className="flex">4</div>
+                                    </div>
+                                </div>
+                            </div> */}
+                            < Inputs />
+                            {/* {Inputs()} */}
 
 
 
@@ -313,6 +342,7 @@ function Main(){
                                         <img src="./articleImages/codesnippet/fourth.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
+                                < Inputs />
                                 <h2 className="article-h2">2. justify-content property</h2>
                                 <p className="article-para">This property arranges flex-items along the <span className="bold">MAIN AXIS</span> inside the flex-container.</p>
                                 <img src="./articleImages/jc.png" alt="jc" className="article-img" />
@@ -347,6 +377,7 @@ function Main(){
                                         <img src="./articleImages/codesnippet/fifth.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
+                                < Justifycontent />
                                 <h2 className="article-h2">3. align-content property</h2>
                                 <p className="article-para">This property arranges flex-items along the <span className="bold">CROSS AXIS</span> inside the flex-container. This is similar to <span className="bold">justify-content</span>.</p>
                                 <img src="./articleImages/ac.png" alt="ac" className="article-img" />
@@ -381,6 +412,7 @@ function Main(){
                                         <img src="./articleImages/codesnippet/sixth.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
+                                < Aligncontent />
                                 <h2 className="article-h2">4. align-items property</h2>
                                 <p className="article-para">This property distributes Flex-items along the <span className="bold">Cross Axis.</span></p>
                                 <img src="./articleImages/ai.png" alt="ai" className="article-img" />
@@ -414,6 +446,7 @@ function Main(){
                                         <img src="./articleImages/codesnippet/seventh.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
+                                < Alignitems />
                                 <h2 className="article-h2">5. align-self property</h2>
                                 <p className="article-para">This property works on the child classes. It positions the selected item along the <span className="bold">Cross Axis.</span></p>
                                 <img src="./articleImages/as.png" alt="as" className="article-img" />
@@ -454,6 +487,7 @@ function Main(){
                                         <img src="./articleImages/codesnippet/eighth.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
+                                < Alignself />
                                 <h2 className="article-h2">Take a Break</h2>
                                 <p className="article-para">So far so good. Take a break!</p>
                                 <img src="./articleImages/brk.png" alt="brk" className="article-img" />
@@ -495,6 +529,7 @@ function Main(){
                                         <img src="./articleImages/codesnippet/ninth.jpg" alt="" className="snippet-img nin" />
                                     </div>
                                 </div>
+                                < Flexgrow />
                                 <p className="article-para">Resize the window and you'll see the results.</p>
                                 <p className="article-para">To duplicate the result of flex-shrink, write the following code:</p>
                                 <p className="article-para"><span className="note">Please note</span> that you need to delete the flex-wrap property first, otherwise it won't work.</p>
@@ -527,6 +562,7 @@ function Main(){
                                         <img src="./articleImages/codesnippet/tenth.jpg" alt="" className="snippet-img ten" />
                                     </div>
                                 </div>
+                                < Flexshrink />
                                 <p className="article-para">Now, resize the window and you'll see the results.</p>
                                 <h3 className="article-h3">c. flex-wrap</h3>
                                 <p className="article-para">This property helps you set the number of flex-items you want in a line or row.</p>
@@ -561,11 +597,13 @@ function Main(){
                                         <img src="./articleImages/codesnippet/eleven.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
+                                < Flexwrap />
                                 <h3 className="article-h3">d. flex-basis</h3>
                                 <p className="article-para">This is similar to adding width to a flex-item, but only more flexible. flex-basis: 10em, for example, will set the initial size of a flex-item to 10em. Its final size will be based on the available space, flex-grow, and flex-shrink.</p>
+                                < Flexbasis />
                                 <h2 className="article-h2">7. Shorthand Flexbox Properties</h2>
                                 <p className="article-para">Time to Investigate Flexbox Shorthands</p>
-                                <h3 className="article-h3">flexbox shorthand</h3>
+                                <h3 className="article-h3">a. flex</h3>
                                 <p className="article-para">This is the shorthand for the <span className="bold">flex-grow</span>, <span className="bold">flex-shrink</span> and <span className="bold">flex-basis</span> properties combined.</p>
                                 <img src="./articleImages/fs.png" alt="fs" className="article-img" />              
                                 <p className="article-para">You can try this by writing the following code:</p>
@@ -599,7 +637,8 @@ function Main(){
                                         <img src="./articleImages/codesnippet/twelve.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
-                                <h3 className="article-h3">a. flex-flow</h3>
+                                < Flex />
+                                <h3 className="article-h3">b. flex-flow</h3>
                                 <p className="article-para">This is the shorthand for the <span className="bold">flex-direction</span> and <span className="bold">flex-wrap</span> properties:</p>
                                 <img src="./articleImages/ff.png" alt="ff" className="article-img" />              
                                 <p className="article-para">You can try this by writing the following code:</p>
@@ -633,7 +672,8 @@ function Main(){
                                         <img src="./articleImages/codesnippet/fourthteen.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
-                                <h3 className="article-h3">b. place-content</h3>
+                                < Flexflow />
+                                <h3 className="article-h3">c. place-content</h3>
                                 <p className="article-para">This is the shorthand for the justify-content and align-content properties:</p>
                                 <img src="./articleImages/pc.png" alt="pc" className="article-img" />              
                                 <p className="article-para">Let's duplicate the results:</p>
@@ -667,6 +707,7 @@ function Main(){
                                         <img src="./articleImages/codesnippet/fifthteen.jpg" alt="" className="snippet-img" />
                                     </div>
                                 </div>
+                                < Placecontent />
                                 <h2 className="article-h2">More Resources</h2>
                                 <p className="article-para">If you want to <span className="bold">exercise</span> your Flexbox knowledge, you can read this article of mine where you'll be <span className="bold">building five responsive layouts using Flexbox</span>. Here's a demo:</p>
                                 <img src="./articleImages/demo.png" alt="demo" className="article-img" />
