@@ -44,7 +44,7 @@
 .dropdown .dropdown-first-section{
     box-sizing: border-box;
     height: 50px;
-    padding: 7px 0;
+    padding: 7px 1rem;
     /* border-bottom: 2px solid blue; */
     /* border: 2px solid red; */
 }
