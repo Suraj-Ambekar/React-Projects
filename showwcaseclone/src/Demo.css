@@ -4,13 +4,14 @@
     width: 64px;
     /* width: 220px; */
     height: 750px;
+    margin-top: -25px;
     background-color: black;
     /* border: 2px solid red; */
-    position: absolute;
-    top: 15px;
+    position: sticky;
+    top: -50px;
     /* padding-left: 0.5rem; */
     /* box-sizing: border-box; */
-    
+    z-index: 2;    
 }
 
 .sidebar-content{

@@ -9,7 +9,10 @@
     padding-left: 17%;
     /* padding-right: 20%; */
     padding-right: 17%;
-    /* position: relative; */
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    /* top: -50px; */
 }
 
 .navbar{

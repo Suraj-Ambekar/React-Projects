@@ -15,9 +15,10 @@ function App() {
   return (
     <div className="App">
       < Header />
+      < Demo />
       < Main />
       {/* < Sidebar /> */}
-      < Demo />
+      {/* < Demo /> */}
       {/* < Dropdown /> */}
     </div>
   );
