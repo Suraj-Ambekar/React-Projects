@@ -800,6 +800,8 @@
 
 
 .container-sidebar{
+    position: sticky;
+    top: -210px;
     /* border: 1px solid white; */
     height: 100vh;
     display: grid;
