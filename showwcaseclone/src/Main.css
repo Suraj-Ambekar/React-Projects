@@ -2,6 +2,7 @@
     border: 2px solid gray;
     border-radius: 5px;
     height: 400px;
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
@@ -359,10 +360,10 @@
     color: white;
 }
 
-.content .content-first-section .content-main .article{
+/* .content .content-first-section .content-main .article{
     height: 5000vh;
     border: 2px solid orangered;
-}
+} */
 
 .content .content-first-section .content-main .article .article-para{
     font-size: 18px;

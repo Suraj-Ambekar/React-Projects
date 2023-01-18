@@ -93,7 +93,7 @@ export function Justifycontent(){
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
-                <h3 className="heading">CSS Demo: background-position</h3>
+                <h3 className="heading">CSS Demo: justify-content</h3>
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
@@ -160,7 +160,7 @@ export function Aligncontent(){
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
-                <h3 className="heading">CSS Demo: background-position</h3>
+                <h3 className="heading">CSS Demo: align-content</h3>
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
@@ -234,7 +234,7 @@ export function Alignitems(){
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
-                <h3 className="heading">CSS Demo: background-position</h3>
+                <h3 className="heading">CSS Demo: align-items</h3>
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
@@ -301,7 +301,7 @@ export function Alignself(){
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
-                <h3 className="heading">CSS Demo: background-position</h3>
+                <h3 className="heading">CSS Demo: align-self</h3>
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
@@ -367,7 +367,7 @@ export function Flexgrow(){
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
-                <h3 className="heading">CSS Demo: background-position</h3>
+                <h3 className="heading">CSS Demo: flex-grow</h3>
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code fg">
@@ -433,7 +433,7 @@ export function Flexshrink(){
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
-                <h3 className="heading">CSS Demo: background-position</h3>
+                <h3 className="heading">CSS Demo: flex-shrink</h3>
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code fg">
@@ -487,7 +487,7 @@ export function Flexwrap(){
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
-                <h3 className="heading">CSS Demo: background-position</h3>
+                <h3 className="heading">CSS Demo: flex-wrap</h3>
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
@@ -551,7 +551,7 @@ export function Flexbasis(){
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
-                <h3 className="heading">CSS Demo: background-position</h3>
+                <h3 className="heading">CSS Demo: flex-basis</h3>
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code fg">
@@ -608,7 +608,7 @@ export function Flex(){
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
-                <h3 className="heading">CSS Demo: background-position</h3>
+                <h3 className="heading">CSS Demo: flex</h3>
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
@@ -668,7 +668,7 @@ export function Flexflow(){
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
-                <h3 className="heading">CSS Demo: background-position</h3>
+                <h3 className="heading">CSS Demo: flex-flow</h3>
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
@@ -732,7 +732,7 @@ export function Placecontent(){
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
-                <h3 className="heading">CSS Demo: background-position</h3>
+                <h3 className="heading">CSS Demo: place-content</h3>
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
@@ -745,7 +745,7 @@ export function Placecontent(){
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     place-content: start space-evenly;
                 </code>
-                <code className="inpu" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
+                <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
                     place-content: end center;
                 </code>
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">

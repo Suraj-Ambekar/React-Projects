@@ -148,7 +148,7 @@ function Main(){
                                     </div>
                                 </div>
                             </div> */}
-                            < Inputs />
+                            {/* < Inputs /> */}
                             {/* {Inputs()} */}
 
 
