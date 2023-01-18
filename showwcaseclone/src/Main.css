@@ -374,6 +374,13 @@
     line-height: 28px;
     color: #d4d4d4;
 }
+.content .content-first-section .content-main .article .list{
+    margin-left: 1rem;
+}
+.content .content-first-section .content-main .article .lists{
+    color: green;
+    font-weight: bold;
+}
 
 .content .content-first-section .content-main .article .article-h2{
     font-size: 31px;

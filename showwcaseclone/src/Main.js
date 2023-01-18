@@ -450,13 +450,13 @@ function Main(){
                                 <h2 className="article-h2">5. align-self property</h2>
                                 <p className="article-para">This property works on the child classes. It positions the selected item along the <span className="bold">Cross Axis.</span></p>
                                 <img src="./articleImages/as.png" alt="as" className="article-img" />
-                                <p className="article-para">In total we have 6 values:</p>
-                                <p className="article-para">flex-start</p>
-                                <p className="article-para">flex-end</p>
-                                <p className="article-para">center</p>
-                                <p className="article-para">baseline</p>
-                                <p className="article-para">stretch</p>
-                                <p className="article-para">auto</p>
+                                <p className="article-para lists">In total we have 6 values:</p>
+                                <p className="article-para list">1. flex-start</p>
+                                <p className="article-para list">2. flex-end</p>
+                                <p className="article-para list">3. center</p>
+                                <p className="article-para list">4. baseline</p>
+                                <p className="article-para list">5. stretch</p>
+                                <p className="article-para list">6. auto</p>
                                 <p className="article-para">To recreate the results, select any <span className="code-bg">.box-*</span> and write the following code:</p>
                                 <div className="code-snippet">
                                     <div className="snippet-fsection">

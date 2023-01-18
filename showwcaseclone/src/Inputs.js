@@ -32,7 +32,7 @@ export function Inputs() {
 
         <div className="interactive-mode">
             <div className="interactive-heading">
-                <h3 className="heading">CSS Demo: background-position</h3>
+                <h3 className="heading">CSS Demo: flex-direction</h3>
                 <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
             </div>
             <div className="interactive-code">
