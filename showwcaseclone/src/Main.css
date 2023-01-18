@@ -349,6 +349,11 @@
     margin-bottom: 30px;
 }
 
+.content .content-first-section .content-main .table-of-content div h5 a{
+    text-decoration: none;
+    color: inherit;
+}
+
 .content .content-first-section .content-main .table-of-content div h5{
     font-weight: 100;
     font-size: 0.9rem;
@@ -363,6 +368,8 @@
 .content .content-first-section .content-main .table-of-content div h5:first-child{
     color: white;
 }
+
+
 
 /* .content .content-first-section .content-main .article{
     height: 5000vh;

@@ -157,48 +157,48 @@ function Main(){
                             <div className="table-of-content">
                                 <h3>Table of Contents</h3>
                                 <div>
-                                    <h5>First, What is Flexbox?</h5>
-                                    <h5>Flexbox Architecture</h5>
-                                    <h5>Flexbox Chart</h5>
-                                    <h5>How to Set Up the Project</h5>
+                                    <h5><a href="#s1">First, What is Flexbox?</a></h5>
+                                    <h5><a href="#s2">Flexbox Architecture</a></h5>
+                                    <h5><a href="#s3">Flexbox Chart</a></h5>
+                                    <h5><a href="#s4">How to Set Up the Project</a></h5>
                                     {/* <h5>a. HTML</h5>
                                     <h5>b. CSS</h5> */}
-                                    <h5>But Wait.....</h5>
-                                    <h5>1. flex-direction property</h5>
-                                    <h5>2. justify-content property</h5>
-                                    <h5>3. align-content property</h5>
-                                    <h5>4. align-items property</h5>
-                                    <h5>5. align-self property</h5>
-                                    <h5>6. flex - grow | shrink | wrap | basis properties</h5>
+                                    <h5><a href="#s5">But Wait.....</a></h5>
+                                    <h5><a href="#s6">1. flex-direction property</a></h5>
+                                    <h5><a href="#s7">2. justify-content property</a></h5>
+                                    <h5><a href="#s8">3. align-content property</a></h5>
+                                    <h5><a href="#s9">4. align-items property</a></h5>
+                                    <h5><a href="#s10">5. align-self property</a></h5>
+                                    <h5><a href="#s11">6. flex - grow | shrink | wrap | basis properties</a></h5>
                                     {/* <h5>a. flex-grow</h5>
                                     <h5>b. flex-shrink</h5>
                                     <h5>c. flex-wrap</h5>
                                     <h5>d. flex-basis</h5> */}
-                                    <h5>Shorthand Flexbox Properties</h5>
+                                    <h5><a href="#s12">Shorthand Flexbox Properties</a></h5>
                                     {/* <h5>a. flex shorthand</h5>
                                     <h5>b. flex-flow</h5>
                                     <h5>c. place-content</h5> */}
-                                    <h5>More Resources</h5>
-                                    <h5>Conclusion</h5>
+                                    <h5><a href="#s13">More Resources</a></h5>
+                                    <h5><a href="#s14">Conclusion</a></h5>
                                 </div>
                             </div>
 
                             <div className="article">
                                 <p className="article-para">In this article, I'll teach you CSS Flexbox basics so you can make your own responsive sites. I'll explain how each of Flexbox's properties work, and I'll give you a cheatsheet that covers everything you can do with Flexbox. Let's Go 🎖️</p>
-                                <h2 className="article-h2">First, What is Flexbox?</h2>
+                                <h2 className="article-h2" id="s1">First, What is Flexbox?</h2>
                                 <img src="./articleImages/whatisflexbox.png" alt="what is flexbox" className="article-img" />
                                 <p className="article-para">When you're building a house, you need a blueprint. In the same way, we need a blueprint when we're making websites. And Flexbox is the blueprint.</p>
                                 {/* <p className="article-para"></p> */}
                                 <p className="article-para">The Flexbox model allows us to layout the content of our website. Not only that, it helps us create the structures needed for creating responsive websites for multiple devices.</p>
                                 <p className="article-para">Here's a demo of one project using Flexbox as the main blueprint.</p>
                                 <img src="./articleImages/projectDemo.jpg" alt="what is flexbox" className="article-img" />
-                                <h2 className="article-h2">Flexbox Architecture</h2>    
+                                <h2 className="article-h2" id="s2">Flexbox Architecture</h2>    
                                 <p className="article-para">So how does Flexbox architecture work? The flex-items [Contents] are distributed along the main axis and cross axis. And, depending on the flex-direction property, the layout position changes between rows and columns.</p>
                                 <img src="./articleImages/flexboxArchitecture.png" alt="what is flexbox" className="article-img" />
-                                <h2 className="article-h2">Flexbox Chart</h2>
+                                <h2 className="article-h2" id="s3">Flexbox Chart</h2>
                                 <p className="article-para">This chart contains every possible property and value you can use when you're working with Flexbox. You can reference it while doing your projects and experiment with different values.</p>
                                 <img src="./articleImages/flexboxChart.png" alt="what is flexbox" className="article-img" />
-                                <h2 className="article-h2">How to Set Up the Project</h2>
+                                <h2 className="article-h2" id="s4">How to Set Up the Project</h2>
                                 <img src="./articleImages/letsCode.png" alt="" className="article-img" />
                                 <p className="article-para">For this project, you need to know little bit of HTML, CSS, and how to work with VS code. Follow along with me as we complete the following tasks:</p>
                                 <p className="article-para">1. Create a folder named "Project-1" & Open VS Code</p>
@@ -269,7 +269,7 @@ function Main(){
                                         <img src="./articleImages/codesnippet/seconds.jpg" alt="" className="snippet-img sec" />
                                     </div>
                                 </div>
-                                <h2 className="article-h2">But Wait.....</h2>
+                                <h2 className="article-h2" id="s5">But Wait.....</h2>
                                 <img src="./articleImages/wait.png" alt="" className="article-img" />
                                 <p className="article-para">Before starting, you need to understand the relationship between parent and child classes.</p>
                                 <img src="./articleImages/relationship.png" alt="" className="article-img" />
@@ -307,7 +307,7 @@ function Main(){
                                 </div>
                                 <p className="article-para">And...we're all set! Let's start coding. 😊</p>
                                 <img src="./articleImages/coffee.png" alt="" className="article-img" />
-                                <h2 className="article-h2">1. flex-direction property</h2>
+                                <h2 className="article-h2" id="s6">1. flex-direction property</h2>
                                 <p className="article-para">This property allows us to set the direction and orientation in which our flex-items should be distributed inside the flex-container.</p>
                                 <img src="./articleImages/flexdrow.png" alt="" className="article-img" />
                                 <img src="./articleImages/flexdcol.png" alt="" className="article-img" />
@@ -343,7 +343,7 @@ function Main(){
                                     </div>
                                 </div>
                                 < Inputs />
-                                <h2 className="article-h2">2. justify-content property</h2>
+                                <h2 className="article-h2" id="s7">2. justify-content property</h2>
                                 <p className="article-para">This property arranges flex-items along the <span className="bold">MAIN AXIS</span> inside the flex-container.</p>
                                 <img src="./articleImages/jc.png" alt="jc" className="article-img" />
                                 <img src="./articleImages/jc1.png" alt="jc1" className="article-img" />
@@ -378,7 +378,7 @@ function Main(){
                                     </div>
                                 </div>
                                 < Justifycontent />
-                                <h2 className="article-h2">3. align-content property</h2>
+                                <h2 className="article-h2" id="s8">3. align-content property</h2>
                                 <p className="article-para">This property arranges flex-items along the <span className="bold">CROSS AXIS</span> inside the flex-container. This is similar to <span className="bold">justify-content</span>.</p>
                                 <img src="./articleImages/ac.png" alt="ac" className="article-img" />
                                 <img src="./articleImages/ac1.png" alt="ac1" className="article-img" />
@@ -413,7 +413,7 @@ function Main(){
                                     </div>
                                 </div>
                                 < Aligncontent />
-                                <h2 className="article-h2">4. align-items property</h2>
+                                <h2 className="article-h2" id="s9">4. align-items property</h2>
                                 <p className="article-para">This property distributes Flex-items along the <span className="bold">Cross Axis.</span></p>
                                 <img src="./articleImages/ai.png" alt="ai" className="article-img" />
                                 <p className="article-para">To recreate these results, let's write the following code in CSS:</p>
@@ -447,8 +447,8 @@ function Main(){
                                     </div>
                                 </div>
                                 < Alignitems />
-                                <h2 className="article-h2">5. align-self property</h2>
-                                <p className="article-para">This property works on the child classes. It positions the selected item along the <span className="bold">Cross Axis.</span></p>
+                                <h2 className="article-h2" id="s10">5. align-self property</h2>
+                                <p className="article-para">This property works on the <span className="note">child</span> classes. It positions the selected item along the <span className="bold">Cross Axis.</span></p>
                                 <img src="./articleImages/as.png" alt="as" className="article-img" />
                                 <p className="article-para lists">In total we have 6 values:</p>
                                 <p className="article-para list">1. flex-start</p>
@@ -491,7 +491,7 @@ function Main(){
                                 <h2 className="article-h2">Take a Break</h2>
                                 <p className="article-para">So far so good. Take a break!</p>
                                 <img src="./articleImages/brk.png" alt="brk" className="article-img" />
-                                <h2 className="article-h2">6. flex - grow | shrink | wrap | basis properties</h2>
+                                <h2 className="article-h2" id="s11">6. flex - grow | shrink | wrap | basis properties</h2>
                                 <p className="article-para">The properties we'll discuss now will work when we resize the window. Let's dive right in.</p>
                                 <h3 className="article-h3">a. flex grow</h3>
                                 <p className="article-para">This property grows the size of a flex-item based on the width of the flex-container.</p>
@@ -601,7 +601,7 @@ function Main(){
                                 <h3 className="article-h3">d. flex-basis</h3>
                                 <p className="article-para">This is similar to adding width to a flex-item, but only more flexible. flex-basis: 10em, for example, will set the initial size of a flex-item to 10em. Its final size will be based on the available space, flex-grow, and flex-shrink.</p>
                                 < Flexbasis />
-                                <h2 className="article-h2">7. Shorthand Flexbox Properties</h2>
+                                <h2 className="article-h2" id="s12">7. Shorthand Flexbox Properties</h2>
                                 <p className="article-para">Time to Investigate Flexbox Shorthands</p>
                                 <h3 className="article-h3">a. flex</h3>
                                 <p className="article-para">This is the shorthand for the <span className="bold">flex-grow</span>, <span className="bold">flex-shrink</span> and <span className="bold">flex-basis</span> properties combined.</p>
@@ -708,10 +708,10 @@ function Main(){
                                     </div>
                                 </div>
                                 < Placecontent />
-                                <h2 className="article-h2">More Resources</h2>
+                                <h2 className="article-h2" id="s13">More Resources</h2>
                                 <p className="article-para">If you want to <span className="bold">exercise</span> your Flexbox knowledge, you can read this article of mine where you'll be <span className="bold">building five responsive layouts using Flexbox</span>. Here's a demo:</p>
                                 <img src="./articleImages/demo.png" alt="demo" className="article-img" />
-                                <h2 className="article-h2">Conclusion</h2>
+                                <h2 className="article-h2" id="s14">Conclusion</h2>
                                 <p className="article-para">Here's your medal for reading till the end ❤️</p>                                
                             </div>
 
