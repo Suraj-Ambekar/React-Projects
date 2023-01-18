@@ -356,6 +356,10 @@
     color: gray;
 }
 
+.content .content-first-section .content-main .table-of-content div h5:hover{
+    color: white;
+}
+
 .content .content-first-section .content-main .table-of-content div h5:first-child{
     color: white;
 }
