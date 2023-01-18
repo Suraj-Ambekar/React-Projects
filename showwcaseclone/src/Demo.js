@@ -1,6 +1,7 @@
 import './Demo.css';
 import communites from './communities';
 import './Header.css';
+import { useState } from 'react';
 // import {useState} from 'react';
 // import {useState} from 'react';
 
@@ -30,6 +31,7 @@ const community = communites.map(item=>{
   })
 
 export default function Demo(){
+    const [isMouseOver, setIsMouseOver] = useState(false);
 
 
     // let spanText = document.querySelector("tooltip");
@@ -40,7 +42,11 @@ export default function Demo(){
     // }
     
     return(
-        <div className="sidebar">
+        <div className={isMouseOver ? "sidebar stick" : "sidebar fix"}
+        onMouseOver={() => setIsMouseOver(true)}
+        onMouseOut={() => setIsMouseOver(false)}
+        
+        >
             <a href="www.showwcase.com"><img className="logo" src="./showwcase_logo.png" alt="showwcase logo" /></a>
             <div className="sidebar-content">
                 <div className="btn">

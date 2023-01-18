@@ -6,13 +6,22 @@
     height: 750px;
     margin-top: -25px;
     background-color: black;
-    /* border: 2px solid red; */
-    position: sticky;
-    top: -50px;
-    /* padding-left: 0.5rem; */
-    /* box-sizing: border-box; */
+    border: 2px solid red;
+    position: fixed;
+    top: 40px;
+    /* position: sticky;
+    top: -50px; */
     z-index: 2;    
 }
+
+/* .stick{
+    position: sticky;
+} */
+
+/* .sidebar:hover{
+    position: fixed;
+
+} */
 
 .sidebar-content{
     width: 100%;

@@ -190,16 +190,21 @@
 
 
 .main{
+
     /* background-color: rgb(174, 163, 163); */
     background-color: #171718;
     color: gray;
     /* height: 100vh; */
+    /* position: absolute;
+    top: 45px; */
     padding-left: 18%;
     /* padding-right: 20%; */
     padding-right: 18%;
-    position: relative;
+    /* position: relative; */
     padding-top: 20px;
-    z-index: -1;
+    /* z-index: -1; */
+    /* position: absolute;
+    top: 20px; */
 }
 
 .container{
