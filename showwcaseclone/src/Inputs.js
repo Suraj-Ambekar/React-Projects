@@ -21,19 +21,20 @@ export function Inputs() {
       starRef.current.style.cssText = e.target.textContent;
     }
   
-    const handleReset = () => {
-    //     //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-    //     //setDefaultValuess((prev)=> prev);
-    //     //setDefaultValuesss((prev)=> prev);
-    //     //setDefaultValuessss((prev)=> prev);
-    }
+    // const handleReset = () => {
+    // //     //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+    // //     //setDefaultValuess((prev)=> prev);
+    // //     //setDefaultValuesss((prev)=> prev);
+    // //     //setDefaultValuessss((prev)=> prev);
+    // }
+    
 
     return (
 
         <div className="interactive-mode">
             <div className="interactive-heading">
                 <h3 className="heading">CSS Demo: flex-direction</h3>
-                <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
+                {/* <button type="button" className="reset-btn" onClick={handleReset}>RESET</button> */}
             </div>
             <div className="interactive-code">
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
@@ -83,18 +84,18 @@ export function Justifycontent(){
       starRef.current.style.cssText = e.target.textContent;
     }
   
-    const handleReset = () => {
-        // //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        // //setDefaultValuess((prev)=> prev);
-        // //setDefaultValuesss((prev)=> prev);
-        // //setDefaultValuessss((prev)=> prev);
-    }
+    // const handleReset = () => {
+    //     // //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+    //     // //setDefaultValuess((prev)=> prev);
+    //     // //setDefaultValuesss((prev)=> prev);
+    //     // //setDefaultValuessss((prev)=> prev);
+    // }
 
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
                 <h3 className="heading">CSS Demo: justify-content</h3>
-                <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
+                {/* <button type="button" className="reset-btn" onClick={handleReset}>RESET</button> */}
             </div>
             <div className="interactive-code">
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
@@ -150,18 +151,18 @@ export function Aligncontent(){
       starRef.current.style.cssText = e.target.textContent;
     }
   
-    const handleReset = () => {
-        // //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        // //setDefaultValuess((prev)=> prev);
-        // //setDefaultValuesss((prev)=> prev);
-        // //setDefaultValuessss((prev)=> prev);
-    }
+    // const handleReset = () => {
+    //     // //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+    //     // //setDefaultValuess((prev)=> prev);
+    //     // //setDefaultValuesss((prev)=> prev);
+    //     // //setDefaultValuessss((prev)=> prev);
+    // }
 
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
                 <h3 className="heading">CSS Demo: align-content</h3>
-                <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
+                {/* <button type="button" className="reset-btn" onClick={handleReset}>RESET</button> */}
             </div>
             <div className="interactive-code">
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">
@@ -224,18 +225,18 @@ export function Alignitems(){
       starRef.current.style.cssText = e.target.textContent;
     }
   
-    const handleReset = () => {
-        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        //setDefaultValuess((prev)=> prev);
-        //setDefaultValuesss((prev)=> prev);
-        //setDefaultValuessss((prev)=> prev);
-    }
+    // const handleReset = () => {
+    //     //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+    //     //setDefaultValuess((prev)=> prev);
+    //     //setDefaultValuesss((prev)=> prev);
+    //     //setDefaultValuessss((prev)=> prev);
+    // }
 
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
                 <h3 className="heading">CSS Demo: align-items</h3>
-                <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
+                {/* <button type="button" className="reset-btn" onClick={handleReset}>RESET</button> */}
             </div>
             <div className="interactive-code">
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
@@ -291,18 +292,18 @@ export function Alignself(){
       starRef.current.style.cssText = e.target.textContent;
     }
   
-    const handleReset = () => {
-        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        //setDefaultValuess((prev)=> prev);
-        //setDefaultValuesss((prev)=> prev);
-        //setDefaultValuessss((prev)=> prev);
-    }
+    // const handleReset = () => {
+    //     //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+    //     //setDefaultValuess((prev)=> prev);
+    //     //setDefaultValuesss((prev)=> prev);
+    //     //setDefaultValuessss((prev)=> prev);
+    // }
 
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
                 <h3 className="heading">CSS Demo: align-self</h3>
-                <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
+                {/* <button type="button" className="reset-btn" onClick={handleReset}>RESET</button> */}
             </div>
             <div className="interactive-code">
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
@@ -357,18 +358,18 @@ export function Flexgrow(){
       starRef.current.style.cssText = e.target.textContent;
     }
   
-    const handleReset = () => {
-        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        //setDefaultValuess((prev)=> prev);
-        //setDefaultValuesss((prev)=> prev);
-        //setDefaultValuessss((prev)=> prev);
-    }
+    // const handleReset = () => {
+    //     //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+    //     //setDefaultValuess((prev)=> prev);
+    //     //setDefaultValuesss((prev)=> prev);
+    //     //setDefaultValuessss((prev)=> prev);
+    // }
 
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
                 <h3 className="heading">CSS Demo: flex-grow</h3>
-                <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
+                {/* <button type="button" className="reset-btn" onClick={handleReset}>RESET</button> */}
             </div>
             <div className="interactive-code fg">
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
@@ -423,18 +424,18 @@ export function Flexshrink(){
       starRef.current.style.cssText = e.target.textContent;
     }
   
-    const handleReset = () => {
-        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        //setDefaultValuess((prev)=> prev);
-        //setDefaultValuesss((prev)=> prev);
-        //setDefaultValuessss((prev)=> prev);
-    }
+    // const handleReset = () => {
+    //     //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+    //     //setDefaultValuess((prev)=> prev);
+    //     //setDefaultValuesss((prev)=> prev);
+    //     //setDefaultValuessss((prev)=> prev);
+    // }
 
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
                 <h3 className="heading">CSS Demo: flex-shrink</h3>
-                <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
+                {/* <button type="button" className="reset-btn" onClick={handleReset}>RESET</button> */}
             </div>
             <div className="interactive-code fg">
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
@@ -477,18 +478,18 @@ export function Flexwrap(){
       starRef.current.style.cssText = e.target.textContent;
     }
   
-    const handleReset = () => {
-        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        //setDefaultValuess((prev)=> prev);
-        //setDefaultValuesss((prev)=> prev);
-        //setDefaultValuessss((prev)=> prev);
-    }
+    // const handleReset = () => {
+    //     //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+    //     //setDefaultValuess((prev)=> prev);
+    //     //setDefaultValuesss((prev)=> prev);
+    //     //setDefaultValuessss((prev)=> prev);
+    // }
 
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
                 <h3 className="heading">CSS Demo: flex-wrap</h3>
-                <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
+                {/* <button type="button" className="reset-btn" onClick={handleReset}>RESET</button> */}
             </div>
             <div className="interactive-code">
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
@@ -541,18 +542,18 @@ export function Flexbasis(){
       starRef.current.style.cssText = e.target.textContent;
     }
   
-    const handleReset = () => {
-        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        //setDefaultValuess((prev)=> prev);
-        //setDefaultValuesss((prev)=> prev);
-        //setDefaultValuessss((prev)=> prev);
-    }
+    // const handleReset = () => {
+    //     //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+    //     //setDefaultValuess((prev)=> prev);
+    //     //setDefaultValuesss((prev)=> prev);
+    //     //setDefaultValuessss((prev)=> prev);
+    // }
 
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
                 <h3 className="heading">CSS Demo: flex-basis</h3>
-                <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
+                {/* <button type="button" className="reset-btn" onClick={handleReset}>RESET</button> */}
             </div>
             <div className="interactive-code fg">
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
@@ -598,18 +599,18 @@ export function Flex(){
       starRef.current.style.cssText = e.target.textContent;
     }
   
-    const handleReset = () => {
-        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        //setDefaultValuess((prev)=> prev);
-        //setDefaultValuesss((prev)=> prev);
-        //setDefaultValuessss((prev)=> prev);
-    }
+    // const handleReset = () => {
+    //     //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+    //     //setDefaultValuess((prev)=> prev);
+    //     //setDefaultValuesss((prev)=> prev);
+    //     //setDefaultValuessss((prev)=> prev);
+    // }
 
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
                 <h3 className="heading">CSS Demo: flex</h3>
-                <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
+                {/* <button type="button" className="reset-btn" onClick={handleReset}>RESET</button> */}
             </div>
             <div className="interactive-code">
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
@@ -658,18 +659,18 @@ export function Flexflow(){
       starRef.current.style.cssText = e.target.textContent;
     }
   
-    const handleReset = () => {
-        //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        //setDefaultValuess((prev)=> prev);
-        //setDefaultValuesss((prev)=> prev);
-        //setDefaultValuessss((prev)=> prev);
-    }
+    // const handleReset = () => {
+    //     //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+    //     //setDefaultValuess((prev)=> prev);
+    //     //setDefaultValuesss((prev)=> prev);
+    //     //setDefaultValuessss((prev)=> prev);
+    // }
 
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
                 <h3 className="heading">CSS Demo: flex-flow</h3>
-                <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
+                {/* <button type="button" className="reset-btn" onClick={handleReset}>RESET</button> */}
             </div>
             <div className="interactive-code">
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}    contenteditable="true">
@@ -722,18 +723,18 @@ export function Placecontent(){
       starRef.current.style.cssText = e.target.textContent;
     }
   
-    const handleReset = () => {
-        // //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
-        // //setDefaultValuess((prev)=> prev);
-        // //setDefaultValuesss((prev)=> prev);
-        // //setDefaultValuessss((prev)=> prev);
-    }
+    // const handleReset = () => {
+    //     // //setDefaultValues(()=> console.log(inputsRef[0].current[0].innerText));
+    //     // //setDefaultValuess((prev)=> prev);
+    //     // //setDefaultValuesss((prev)=> prev);
+    //     // //setDefaultValuessss((prev)=> prev);
+    // }
 
     return(
         <div className="interactive-mode">
             <div className="interactive-heading">
                 <h3 className="heading">CSS Demo: place-content</h3>
-                <button type="button" className="reset-btn" onClick={handleReset}>RESET</button>
+                {/* <button type="button" className="reset-btn" onClick={handleReset}>RESET</button> */}
             </div>
             <div className="interactive-code">
                 <code className="input" ref={inputsRef} onFocus={handleFocus} onInput={handleInput}  contenteditable="true">

@@ -6,7 +6,7 @@
     height: 750px;
     margin-top: -25px;
     background-color: black;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: fixed;
     top: 40px;
     /* position: sticky;
