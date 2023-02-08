@@ -1,28 +1,38 @@
 import React from 'react'
-import { useState, useRef } from 'react';
+import { useState } from 'react';
+// import { useRef } from 'react';
 
 
 const SimpleInput = (props) => {
 
-  const enteredValue = useRef();
+  // const enteredValue = useRef();
 
   const [enteredName, setEnteredName] = useState('');
 
-  const [enteredNameValid, setEnteredNameValid] = useState(false);
+  // const [enteredNameValid, setEnteredNameValid] = useState(false);
 
   const [enteredNameValidTouch, setEnteredNameValidTouch] = useState(false);
 
+
+  const enteredNameValid = enteredName.trim() !== '';
+  const nameInputIsInvalid = !enteredNameValid && enteredNameValidTouch;
+
   function changeHandler(event) {
     setEnteredName(event.target.value);
+
+    // if (event.target.value.trim() !== ''){
+    //   setEnteredNameValid(true)
+    // }
   }
 
   function nameInputBlurHandler() {
     setEnteredNameValidTouch(true);
 
-    if (enteredName.trim() === ''){
-      setEnteredNameValid(false)
-      return;
-    }
+
+
+    // if (enteredName.trim() === ''){
+    //   setEnteredNameValid(false)
+    // }
   }
 
   function onSubmitHandler(event) {
@@ -30,23 +40,23 @@ const SimpleInput = (props) => {
 
     setEnteredNameValidTouch(true)
 
-    if (enteredName.trim() === ''){
-      setEnteredNameValid(false)
+    if (!enteredNameValid){
       return;
     }
 
-    setEnteredNameValid(true);
+    // setEnteredNameValid(true);
     console.log(enteredName);
 
-    const curr = enteredValue.current.value;
-    if (curr.trim() === ''){
-      return;
-    }
-    console.log(curr);
+    // const curr = enteredValue.current.value;
+    // if (curr.trim() === ''){
+    //   return;
+    // }
+    // console.log(curr);
     setEnteredName('')
+    setEnteredNameValidTouch(false)
   }
 
-  const nameInputIsInvalid = !enteredNameValid && enteredNameValidTouch;
+
 
   const nameInputClasses = nameInputIsInvalid ? 'form-control invalid' : 'form-control';
 
@@ -56,7 +66,7 @@ const SimpleInput = (props) => {
         <label htmlFor='name'>Your Name</label>
         <input 
           value={enteredName} 
-          ref={enteredValue} 
+          // ref={enteredValue} 
           type='text' 
           id='name' 
           onChange={changeHandler}  
