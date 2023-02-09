@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react';
+import { useState} from 'react';
 // import { useRef } from 'react';
 
 
@@ -13,9 +13,24 @@ const SimpleInput = (props) => {
 
   const [enteredNameValidTouch, setEnteredNameValidTouch] = useState(false);
 
+  // const[formIsValid, setFormIsValid] = useState(false);
 
   const enteredNameValid = enteredName.trim() !== '';
   const nameInputIsInvalid = !enteredNameValid && enteredNameValidTouch;
+
+  let formIsValid = false;
+
+  if(enteredNameValid){ //we can do this to without using useEffect
+    formIsValid(true);
+  }
+
+  // useEffect(()=>{
+  //   if(enteredNameValid){
+  //     setFormIsValid(true);
+  //   } else {
+  //     setFormIsValid(false);
+  //   }
+  // }, [enteredNameValid])
 
   function changeHandler(event) {
     setEnteredName(event.target.value);
@@ -75,7 +90,7 @@ const SimpleInput = (props) => {
         {nameInputIsInvalid && <p className="error-text">Input is wrong</p>}
       </div>
       <div className="form-actions">
-        <button>Submit</button>
+        <button disabled={!formIsValid}>Submit</button>
       </div>
     </form>
   );
