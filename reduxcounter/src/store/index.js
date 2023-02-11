@@ -4,22 +4,42 @@ import {createSlice ,configureStore} from '@reduxjs/toolkit';
 
 const initialState = {counter: 0, showCounter: true};
 
+// const counterSlice = createSlice({
+//     name: 'counter',
+//     initialState,
+//     reducers: {
+//         increament(state) {
+//             state.counter++;
+//         },
+//         decreament(state) {
+//             state.counter--;
+//         },
+//         increase(state,action) {
+//             state.counter = state.counter + action.amount;
+//         },
+//         toggleCounter(state) {
+//             state.showCounter = !state.showCounter;
+//         },
+//     }
+// });
+
 const counterSlice = createSlice({
     name: 'counter',
     initialState,
     reducers: {
-        increament(state) {
+        increament (state) {
             state.counter++;
         },
-        decreament(state) {
+        decrement (state) {
             state.counter--;
         },
-        increase(state,action) {
-            state.counter = state.counter + action.amount;
+        increase (state,action) {
+            state.counter = state.counter + action.payload;
         },
-        toggleCounter(state) {
+        toggleCounter (state) {
             state.showCounter = !state.showCounter;
         },
+
     }
 });
 
@@ -37,6 +57,8 @@ const store = configureStore({
 
 //now we have our react so subscriber can be react component. 
 //so we are gonna use react component.
+
+export const counterActions = counterSlice.actions;
 
 export default store;
 
