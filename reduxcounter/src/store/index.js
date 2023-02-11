@@ -1,46 +1,34 @@
-import {createStore} from 'redux';
+// import {createStore} from 'redux';
+import {createSlice ,configureStore} from '@reduxjs/toolkit';
 // const redux = require('redux'); // above is the method we use in react to import redux.
 
 const initialState = {counter: 0, showCounter: true};
 
-const counterReducer = (state = initialState, action) => {
-    if(action.type === 'INCREMENT'){
-        return {
-            counter: state.counter + 1,
-            showCounter: state.showCounter
-        } 
+const counterSlice = createSlice({
+    name: 'counter',
+    initialState,
+    reducers: {
+        increament(state) {
+            state.counter++;
+        },
+        decreament(state) {
+            state.counter--;
+        },
+        increase(state,action) {
+            state.counter = state.counter + action.amount;
+        },
+        toggleCounter(state) {
+            state.showCounter = !state.showCounter;
+        },
     }
+});
 
-    if(action.type === 'INCREASE'){
-        return {
-            counter: state.counter + action.amount,
-            showCounter: state.showCounter
-        } 
-    }
-
-    if(action.type === 'DECREMENT'){
-        return {
-            counter: state.counter - 1,
-            showCounter: state.showCounter
-        } 
-    }
-
-    if(action.type === 'TOGGLE'){
-        return {
-            showCounter: !state.showCounter,
-            counter: state.counter
-        } 
-    }    
-
-    return state;
-
-
-    
-}
 
 // const store = redux.createStore(counterReducer); //we no longer need this instead we can use something like
-const store = createStore(counterReducer);
-
+// const store = createStore(counterSlice.reducer); // we are gonna use more powerful than him
+const store = configureStore({
+    reducer: counterSlice.reducer
+});
 
 // const counterSubscriber = () => {
 //     const latestCounter = store.getState();
