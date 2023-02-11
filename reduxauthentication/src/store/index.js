@@ -43,6 +43,22 @@ const counterSlice = createSlice({
     }
 });
 
+const initialAuthState = {
+    isAuthenticated: false
+};
+
+const authSlice= createSlice({
+    name: 'authentication',
+    initialState: initialAuthState,
+    reducers: {
+        login(state) {
+            state.isAuthenticated = true;
+        },
+        logout(state) {
+            state.isAuthenticated = false;
+        }
+    }
+});
 
 // const store = redux.createStore(counterReducer); //we no longer need this instead we can use something like
 // const store = createStore(counterSlice.reducer); // we are gonna use more powerful than him
