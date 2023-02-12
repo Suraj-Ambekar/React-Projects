@@ -1,3 +1,10 @@
+import React from 'react';
+// import {createBrowserRouter} from 'react-router';
+
+// const router = createBrowserRouter([
+//   {path: '/'}
+// ]);
+
 // Challenge / Exercise
 
 // 1. Add five new (dummy) page components (content can be simple <h1> elements)
