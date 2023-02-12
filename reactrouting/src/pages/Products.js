@@ -5,7 +5,7 @@ const PRODUCTS = [
     {id: 'p3' , title: 'products 3'},
 ];
 
-function ProductsPage() {
+function ProductsPage() { 
     return (
         <>
             <p>This is a Product Page</p>
