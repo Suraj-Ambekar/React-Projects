@@ -1,1 +1,0 @@
-# Created this project to implement authentication.
