@@ -1,5 +1,5 @@
 import {Fragment} from 'react'
-import classes from '@/components/meetups/MeetupDetail.module.css';
+import classes from './MeetupDetail.module.css';
 
 const MeetupDetail = (props) => {
   return (
