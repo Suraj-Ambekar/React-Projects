@@ -1,0 +1,1 @@
+# Created this simple project just to work on react simple animations.
