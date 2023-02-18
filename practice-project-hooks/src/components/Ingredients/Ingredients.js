@@ -16,7 +16,7 @@ const Ingredients = () => {
   }, []);
 
   const addIngredientHandler = ingredient => {
-    fetch('https://react-hooks-update.firebaseio.com/ingredients.json', {
+    fetch('https://practice-project-hooks-default-rtdb.firebaseio.com/ingredients.json', {
       method: 'POST',
       body: JSON.stringify(ingredient),
       headers: { 'Content-Type': 'application/json' }
@@ -33,9 +33,13 @@ const Ingredients = () => {
   };
 
   const removeIngredientHandler = ingredientId => {
-    setUserIngredients(prevIngredients =>
+    fetch(`https://practice-project-hooks-default-rtdb.firebaseio.com/ingredients/${ingredientId}.json`, {
+      method: 'DELETE',
+    }).then(response=> {
+      setUserIngredients(prevIngredients =>
       prevIngredients.filter(ingredient => ingredient.id !== ingredientId)
     );
+    });
   };
 
   return (
