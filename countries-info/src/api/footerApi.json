@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "MdPlace",
+    "title": "Find me",
+    "details": "Mumbai, Maharashtra"
+  },
+  {
+    "icon": "IoCallSharp",
+    "title": "Call me",
+    "details": "9819298932"
+  },
+  {
+    "icon": "TbMailPlus",
+    "title": "Mail me",
+    "details": "ambekarsuraj03@gmail.com"
+  }
+]
